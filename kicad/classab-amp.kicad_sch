@@ -551,7 +551,7 @@
 					)
 				)
 			)
-			(property "Value" "MJL3218C"
+			(property "Value" "MJL3281C"
 				(at 9.906 -4.318 0)
 				(effects
 					(font
@@ -584,6 +584,46 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\bjt.mod"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Name" "MJL3281C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(symbol "MJL3218C_0_1"
@@ -1773,6 +1813,206 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:VDC"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.0254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "1"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Voltage source, DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0.254) (xy 1.27 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.254) (xy -1.27 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.254) (xy -0.254 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.254) (xy 0.762 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "VDC_0_1"
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:BC547"
 			(pin_names
 				(offset 0) hide)
@@ -2467,12 +2707,6 @@
 		(uuid "1b272d9e-6794-474a-9b74-c48f275b553a")
 	)
 	(junction
-		(at 87.63 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bc04360-9826-44fd-8095-2c018a7d36e2")
-	)
-	(junction
 		(at 208.28 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2575,6 +2809,12 @@
 		(uuid "68e05907-3932-4c1a-a7a7-ec82242a471e")
 	)
 	(junction
+		(at 26.67 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ca09e92-e67a-4751-8720-6578531ad536")
+	)
+	(junction
 		(at 168.91 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2605,10 +2845,10 @@
 		(uuid "7c330aa6-9922-45d8-b75f-1bfb576141b9")
 	)
 	(junction
-		(at 72.39 102.87)
+		(at 220.98 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "849e9397-7b0d-4ca5-9772-3d970e76e1a9")
+		(uuid "839b87f9-755a-4e87-a3d8-0a3a80cfa7a5")
 	)
 	(junction
 		(at 246.38 87.63)
@@ -2701,10 +2941,22 @@
 		(uuid "ba700604-b607-4bb3-9bc1-ca1d7a8f498c")
 	)
 	(junction
+		(at 220.98 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb6e8016-e930-4765-8477-0bc2407cd2d5")
+	)
+	(junction
 		(at 105.41 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5b7cc00-4849-44cb-9caa-a0370f466c28")
+	)
+	(junction
+		(at 64.77 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cac87a0a-15f0-403f-ba3c-168fb2e34fa0")
 	)
 	(junction
 		(at 60.96 153.67)
@@ -2743,6 +2995,12 @@
 		(uuid "ed068ea7-45d1-463b-8598-eb52d9f82c23")
 	)
 	(junction
+		(at 78.74 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef318949-d737-4808-8a5a-b30b3673e625")
+	)
+	(junction
 		(at 207.01 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2771,16 +3029,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fffc50dd-a916-434c-8804-e96d314a0445")
-	)
-	(wire
-		(pts
-			(xy 27.94 87.63) (xy 33.02 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00138ce3-353d-42db-88ef-1f19a9a784b8")
 	)
 	(wire
 		(pts
@@ -2844,6 +3092,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 154.94) (xy 220.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07f4f4b9-78f8-420b-ae53-280e9de85342")
+	)
+	(wire
+		(pts
 			(xy 105.41 147.32) (xy 87.63 147.32)
 		)
 		(stroke
@@ -2881,6 +3139,16 @@
 			(type default)
 		)
 		(uuid "0d3707f5-30ab-48dd-925a-9fed9663b6e0")
+	)
+	(wire
+		(pts
+			(xy 26.67 115.57) (xy 26.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d879678-8e82-4f61-9777-9a7de9ad9d53")
 	)
 	(wire
 		(pts
@@ -3164,7 +3432,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 102.87) (xy 72.39 102.87)
+			(xy 64.77 102.87) (xy 78.74 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3184,7 +3452,17 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 102.87) (xy 72.39 105.41)
+			(xy 41.91 87.63) (xy 46.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec99d44-0f29-498e-a03e-421016c13b8d")
+	)
+	(wire
+		(pts
+			(xy 78.74 102.87) (xy 78.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3244,6 +3522,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 101.6) (xy 26.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4469a576-7635-476f-91d4-c4f35a7f8e67")
+	)
+	(wire
+		(pts
 			(xy 248.92 77.47) (xy 246.38 77.47)
 		)
 		(stroke
@@ -3264,7 +3552,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 87.63) (xy 64.77 87.63)
+			(xy 62.23 87.63) (xy 64.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3371,16 +3659,6 @@
 			(type default)
 		)
 		(uuid "59540823-53df-43b3-8cc4-786bf143ddf1")
-	)
-	(wire
-		(pts
-			(xy 64.77 99.06) (xy 64.77 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f6f254-04ed-432b-a907-17166089f5d1")
 	)
 	(wire
 		(pts
@@ -3524,6 +3802,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 127) (xy 26.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6458f63a-e26c-477c-b74d-339dd836e3fc")
+	)
+	(wire
+		(pts
 			(xy 74.93 167.64) (xy 87.63 167.64)
 		)
 		(stroke
@@ -3604,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 113.03) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b0b792-198c-48a3-b356-173b9b8c45ef")
+	)
+	(wire
+		(pts
 			(xy 207.01 46.99) (xy 207.01 48.26)
 		)
 		(stroke
@@ -3651,16 +3949,6 @@
 			(type default)
 		)
 		(uuid "7975669c-38a8-4f35-9ffd-21066f6216f9")
-	)
-	(wire
-		(pts
-			(xy 40.64 87.63) (xy 48.26 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79bcf187-d4a5-4ba2-9a00-99262bb9f48e")
 	)
 	(wire
 		(pts
@@ -3804,6 +4092,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 116.84) (xy 20.32 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e69dd88-95f2-46c5-80b3-a566bc98bfa6")
+	)
+	(wire
+		(pts
 			(xy 196.85 68.58) (xy 196.85 73.66)
 		)
 		(stroke
@@ -3924,6 +4222,16 @@
 	)
 	(wire
 		(pts
+			(xy 20.32 115.57) (xy 26.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "981a4bef-7b3b-4e37-9ae0-3bfac8822aeb")
+	)
+	(wire
+		(pts
 			(xy 154.94 113.03) (xy 154.94 116.84)
 		)
 		(stroke
@@ -4011,6 +4319,16 @@
 			(type default)
 		)
 		(uuid "a799b1b0-68c2-4218-a894-b544ab6d86f2")
+	)
+	(wire
+		(pts
+			(xy 64.77 114.3) (xy 64.77 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79acacb-a10e-49e9-9be1-1834252b1f08")
 	)
 	(wire
 		(pts
@@ -4334,6 +4652,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 99.06) (xy 64.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8905463-8934-423f-9f31-9310fbfb4e6a")
+	)
+	(wire
+		(pts
 			(xy 168.91 116.84) (xy 189.23 116.84)
 		)
 		(stroke
@@ -4474,13 +4802,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 102.87) (xy 78.74 102.87)
+			(xy 64.77 106.68) (xy 64.77 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4b051d8-115c-458e-ba32-cd77837a8369")
+		(uuid "e475484e-35d2-43b6-99f6-0906457f6584")
 	)
 	(wire
 		(pts
@@ -4491,16 +4819,6 @@
 			(type default)
 		)
 		(uuid "e4caf854-23c6-4866-b278-e416e4ebf685")
-	)
-	(wire
-		(pts
-			(xy 100.33 177.8) (xy 100.33 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5096bf9-425a-4530-a7dc-fea9e6d9828f")
 	)
 	(wire
 		(pts
@@ -4551,16 +4869,6 @@
 			(type default)
 		)
 		(uuid "ec64b72d-cc88-4298-b6fb-3e07202275cf")
-	)
-	(wire
-		(pts
-			(xy 100.33 170.18) (xy 100.33 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed9c1e5e-bbfe-4cec-b21e-1bdfc7e6de45")
 	)
 	(wire
 		(pts
@@ -4624,16 +4932,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 167.64) (xy 100.33 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f948584a-73ec-4caf-8ba9-9bbd1c6dea82")
-	)
-	(wire
-		(pts
 			(xy 238.76 87.63) (xy 238.76 91.44)
 		)
 		(stroke
@@ -4662,6 +4960,16 @@
 		)
 		(uuid "fdaac342-9bbb-4df1-bd39-b1378e708dec")
 	)
+	(wire
+		(pts
+			(xy 207.01 21.59) (xy 220.98 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff3f9f31-d65a-415e-ab76-f77152a937a4")
+	)
 	(text "3W"
 		(exclude_from_sim no)
 		(at 242.824 110.998 0)
@@ -4681,6 +4989,16 @@
 			)
 		)
 		(uuid "2b857eb6-f7f6-4595-9153-a7edc08af9a6")
+	)
+	(text "3W"
+		(exclude_from_sim no)
+		(at 68.072 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "358fa761-0be8-4d1b-8504-058495f52dff")
 	)
 	(text "3W"
 		(exclude_from_sim no)
@@ -4704,16 +5022,6 @@
 	)
 	(text "3W"
 		(exclude_from_sim no)
-		(at 104.648 178.308 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aec3f26e-4cfc-4cda-8d66-a050def3d110")
-	)
-	(text "3W"
-		(exclude_from_sim no)
 		(at 252.476 91.44 0)
 		(effects
 			(font
@@ -4724,7 +5032,7 @@
 	)
 	(text "TODO: Double check pinout!"
 		(exclude_from_sim no)
-		(at 222.25 27.178 0)
+		(at 223.774 34.036 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4754,6 +5062,28 @@
 			)
 		)
 	)
+	(global_label "B-"
+		(shape input)
+		(at 26.67 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3e0a67f5-f4b8-480b-a57c-b9589603dc65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 32.4976 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "B+"
 		(shape input)
 		(at 236.22 29.21 0)
@@ -4767,28 +5097,6 @@
 		(uuid "5c3e624b-e6c3-4102-8f56-00431f273fe4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.0476 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B+"
-		(shape output)
-		(at 83.82 153.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "79bddd39-8b6d-43fe-92c0-2dcf8f6d8f13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6476 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,9 +5172,9 @@
 			)
 		)
 	)
-	(global_label "B-"
-		(shape output)
-		(at 83.82 182.88 0)
+	(global_label "B+"
+		(shape input)
+		(at 26.67 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4874,9 +5182,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e76e985b-c6fd-486d-af90-93f1340b67e4")
+		(uuid "edc2308a-bf92-42d0-b063-16872a1a274f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.6476 182.88 0)
+			(at 32.4976 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4933,6 +5241,42 @@
 			)
 		)
 		(property "Description" "Trim-potentiometer"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 154.94 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "r=10 pos=0.6"
 			(at 154.94 81.28 0)
 			(effects
 				(font
@@ -5094,6 +5438,76 @@
 			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 220.98 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2915430c-117d-4feb-acf7-2a3af61ef0e8")
+		(property "Reference" "C13"
+			(at 224.79 150.7489 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4700u"
+			(at 224.79 153.2889 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+			(at 220.0148 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 220.98 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9ec4189-1b24-41cc-bb5b-24ecb261a03e")
+		)
+		(pin "2"
+			(uuid "fea2153f-7dde-4482-b46d-c861e41129a9")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -5393,72 +5807,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 100.33 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34bc1c17-e340-495c-ae08-1dd4c5b10769")
-		(property "Reference" "#PWR07"
-			(at 100.33 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "CHASSIS"
-			(at 100.203 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 100.33 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9034d8c2-e373-4d9e-bd49-94dc42aa8397")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Custom:MJL1302C")
 		(at 219.71 125.73 0)
 		(mirror x)
@@ -5505,6 +5853,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\bjt.mod"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MJL1302C"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 219.71 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=B"
 			(at 219.71 125.73 0)
 			(effects
 				(font
@@ -5654,6 +6047,51 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC547.mod"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QBC547BP"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e671255e-acef-49f7-99f5-f24367047cb1")
 		)
@@ -5792,6 +6230,51 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC547.mod"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QBC547BP"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 92.71 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 92.71 87.63 0)
 			(effects
 				(font
@@ -6044,6 +6527,51 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC557.mod"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BC557"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 97.79 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 97.79 54.61 0)
 			(effects
 				(font
@@ -6333,6 +6861,51 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\bjt.mod"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MJE350C"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=C 3=B"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c4533499-76d8-4712-beef-27a93a9890ce")
 		)
@@ -6416,6 +6989,76 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c4b5d67-3141-483d-b9e6-ebdac51a9923")
+		(property "Reference" "C15"
+			(at 212.09 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 212.09 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bc2554ab-d070-4395-8076-e5b750a4b017")
+		)
+		(pin "1"
+			(uuid "1515a269-5790-44ae-ac6f-470f32488f6a")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6757,6 +7400,51 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC547.mod"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QBC547BP"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3626aaac-06eb-49e6-8da0-8a9374e8262f")
 		)
@@ -7073,7 +7761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 72.39 105.41 0)
+		(at 78.74 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7082,7 +7770,7 @@
 		(fields_autoplaced yes)
 		(uuid "77cee036-9a86-44c8-a986-76ad28990ffb")
 		(property "Reference" "#PWR01"
-			(at 72.39 111.76 0)
+			(at 78.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7091,7 +7779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 110.49 0)
+			(at 78.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +7787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 105.41 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 105.41 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7117,7 +7805,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 72.39 105.41 0)
+			(at 78.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7342,6 +8030,104 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 26.67 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8147d963-2fe3-4687-9452-afd12cda26b3")
+		(property "Reference" "V1"
+			(at 30.48 106.5501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 30.48 109.0901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 26.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "03d42f40-780d-4a08-ad5f-56047d2927f8")
+		)
+		(pin "1"
+			(uuid "36dfbdc4-07f1-4a57-ac60-809ecbe7cb63")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -7604,6 +8390,51 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\bjt.mod"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MJL3281C"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=C 3=E"
+			(at 218.44 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "891f873b-6fea-47e6-ad35-693a8cf0254f")
 		)
@@ -7617,6 +8448,76 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 207.01 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cd0370d-bb71-4eb7-9f2b-23a672606db1")
+		(property "Reference" "C16"
+			(at 210.82 24.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 210.82 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.9752 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b1f9127b-f54a-489e-983f-6e75077782df")
+		)
+		(pin "1"
+			(uuid "f34608e0-c3b5-427d-a7c2-6ba269e92792")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -7672,6 +8573,51 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC547.mod"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QBC547BP"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 102.87 120.65 0)
 			(effects
 				(font
@@ -8044,7 +8990,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 36.83 87.63 90)
+		(at 50.8 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8053,7 +8999,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0905caf-1b07-4c50-8e49-4ecf71fe7a63")
 		(property "Reference" "C1"
-			(at 35.941 80.01 90)
+			(at 49.911 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8061,7 +9007,7 @@
 			)
 		)
 		(property "Value" "33u"
-			(at 35.941 82.55 90)
+			(at 49.911 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8069,7 +9015,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 40.64 86.6648 0)
+			(at 54.61 86.6648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,7 +9024,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 36.83 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8087,7 +9033,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 36.83 87.63 0)
+			(at 50.8 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8322,7 +9268,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 87.63 90)
+		(at 58.42 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8331,7 +9277,7 @@
 		(fields_autoplaced yes)
 		(uuid "a768ff2b-d6b5-4fa9-8a7b-51282e62cc6a")
 		(property "Reference" "R1"
-			(at 52.07 81.28 90)
+			(at 58.42 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +9285,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 52.07 83.82 90)
+			(at 58.42 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8347,7 +9293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 52.07 89.408 90)
+			(at 58.42 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8356,7 +9302,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 52.07 87.63 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8365,7 +9311,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 52.07 87.63 0)
+			(at 58.42 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8595,6 +9541,208 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 220.98 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4aac1aa-c652-44bd-a980-74bdddde5ac4")
+		(property "Reference" "C14"
+			(at 224.79 25.0189 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4700u"
+			(at 224.79 27.5589 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+			(at 220.0148 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 220.98 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cba1930a-00b2-49d6-87ec-bc40b9025141")
+		)
+		(pin "2"
+			(uuid "68b57801-930a-4820-b29a-d019a736b144")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 21.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b90bdc13-abae-43f1-8c31-b5907021c0e7")
+		(property "Reference" "#PWR010"
+			(at 220.98 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea1cac95-5a3e-4449-8c09-73667caefd34")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbb460aa-a5b3-4582-b6c2-cb81f6bd82ca")
+		(property "Reference" "#PWR09"
+			(at 220.98 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7f1374a-89eb-4913-bb55-52f90b7f38f4")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N5400")
 		(at 34.29 161.29 270)
 		(unit 1)
@@ -8740,6 +9888,51 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC557.mod"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BC557"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 113.03 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1eef4071-4df6-4a1d-b43d-8b855c6adecd")
 		)
@@ -8753,6 +9946,76 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 110.49 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1a46f34-ddc5-4e67-9607-57dd9a6fd26f")
+		(property "Reference" "R15"
+			(at 67.31 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10"
+			(at 67.31 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.548 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "284709e3-2cdf-4d00-a004-c35f8640aa75")
+		)
+		(pin "2"
+			(uuid "106b590b-cf97-4b83-9f58-c6b043036538")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -8805,6 +10068,51 @@
 			)
 		)
 		(property "Description" ""
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\bjt.mod"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "MJE340C"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 204.47 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=C 3=B"
 			(at 204.47 34.29 0)
 			(effects
 				(font
@@ -8960,6 +10268,51 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC547.mod"
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QBC547BP"
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 191.77 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "212a5698-44f7-486c-9025-93441646dfda")
 		)
@@ -9039,6 +10392,72 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 20.32 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e392c9c1-a0dc-4a5e-9448-570458595120")
+		(property "Reference" "#PWR08"
+			(at 20.32 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 20.32 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7efac81e-b4c2-4a65-af2f-30c3d8182471")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9127,76 +10546,6 @@
 			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 100.33 173.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e93a03df-787a-4754-8e68-95bec17c9b62")
-		(property "Reference" "R23"
-			(at 102.87 172.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10"
-			(at 102.87 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.108 173.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100.33 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb306bdb-0fb5-48a0-8b4b-61bab082c64e")
-		)
-		(pin "2"
-			(uuid "fe117179-9f81-43fd-9cc4-7b4bb9c56730")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9517,6 +10866,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:VDC")
+		(at 26.67 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f57c260d-f2e3-42a0-9fa8-7a0f8384e1bf")
+		(property "Reference" "V2"
+			(at 30.48 120.5201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1"
+			(at 30.48 123.0601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Voltage source, DC"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 26.67 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f39678db-e09c-49f7-a6a8-e7abefc5adc4")
+		)
+		(pin "1"
+			(uuid "059501ea-7bad-472c-8a04-460f65aa3a86")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 64.77 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5c5d312-6d75-4086-960d-252071a74dc8")
+		(property "Reference" "#PWR011"
+			(at 64.77 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CHASSIS"
+			(at 64.643 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 64.77 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9b5854d-0d65-4c6a-85eb-bdeb09e43d38")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC547")
 		(at 118.11 87.63 0)
 		(mirror y)
@@ -9566,6 +11079,51 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC547.mod"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "QBC547BP"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 118.11 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 118.11 87.63 0)
 			(effects
 				(font
@@ -9641,6 +11199,51 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC557.mod"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BC557"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 191.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 191.77 101.6 0)
 			(effects
 				(font
@@ -9787,6 +11390,51 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC557.mod"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "BC557"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 166.37 54.61 0)
 			(effects
 				(font
