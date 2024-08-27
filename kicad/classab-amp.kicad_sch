@@ -1651,168 +1651,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N5400"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5400"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?201AD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5400_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5400_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Simulation_SPICE:VDC"
 			(pin_numbers hide)
 			(pin_names
@@ -2701,22 +2539,10 @@
 		(uuid "16db61e6-06b8-408c-9854-e44649e10769")
 	)
 	(junction
-		(at 34.29 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b272d9e-6794-474a-9b74-c48f275b553a")
-	)
-	(junction
 		(at 208.28 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b3e71ff-cd1a-46e7-bf75-502580b9907c")
-	)
-	(junction
-		(at 60.96 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2d79916f-3cc7-47b8-a72b-80b97e275cc1")
 	)
 	(junction
 		(at 161.29 74.93)
@@ -2747,12 +2573,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44a60dea-bcfd-459e-b73f-eb819cf893d7")
-	)
-	(junction
-		(at 74.93 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4bf97758-6353-4123-bdd6-bfc405b6dfbe")
 	)
 	(junction
 		(at 220.98 111.76)
@@ -2803,12 +2623,6 @@
 		(uuid "674cc0a7-4d59-468f-9243-a380d8faab5e")
 	)
 	(junction
-		(at 46.99 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68e05907-3932-4c1a-a7a7-ec82242a471e")
-	)
-	(junction
 		(at 26.67 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2825,12 +2639,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "730eb921-10e9-44c8-9e55-7891871f6675")
-	)
-	(junction
-		(at 74.93 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a19f26a-3e29-4890-81d1-52df91e1ff8f")
 	)
 	(junction
 		(at 168.91 29.21)
@@ -2855,12 +2663,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "896f3810-6d4a-41c5-a02f-03d1259ccb74")
-	)
-	(junction
-		(at 74.93 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b16eeed-35d9-4846-983d-a38a0e321a68")
 	)
 	(junction
 		(at 196.85 101.6)
@@ -2911,12 +2713,6 @@
 		(uuid "b14fce3a-1aad-4a36-b68b-b2d49b4b1faf")
 	)
 	(junction
-		(at 46.99 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b20185dc-3b51-4f53-9978-fbce1d24a900")
-	)
-	(junction
 		(at 220.98 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2927,18 +2723,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b7216fae-dd26-4637-b2df-d57e84b2c202")
-	)
-	(junction
-		(at 60.96 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8db1932-037d-4dcb-b594-47f043d9798f")
-	)
-	(junction
-		(at 46.99 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba700604-b607-4bb3-9bc1-ca1d7a8f498c")
 	)
 	(junction
 		(at 220.98 21.59)
@@ -2957,12 +2741,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cac87a0a-15f0-403f-ba3c-168fb2e34fa0")
-	)
-	(junction
-		(at 60.96 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d607d154-45d4-43ed-ad8f-0347475506f4")
 	)
 	(junction
 		(at 87.63 120.65)
@@ -3192,16 +2970,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 165.1) (xy 34.29 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1296339a-a47b-4fcd-8278-2845156b4d67")
-	)
-	(wire
-		(pts
 			(xy 212.09 73.66) (xy 220.98 73.66)
 		)
 		(stroke
@@ -3249,16 +3017,6 @@
 			(type default)
 		)
 		(uuid "1a85353a-d690-4b91-9bbc-c19db78972f6")
-	)
-	(wire
-		(pts
-			(xy 29.21 153.67) (xy 30.48 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b7a1255-b7dc-49a4-b3d9-eab4fdb7eccd")
 	)
 	(wire
 		(pts
@@ -3349,26 +3107,6 @@
 			(type default)
 		)
 		(uuid "285c2361-b4d1-4001-9b8c-714e4a95437f")
-	)
-	(wire
-		(pts
-			(xy 74.93 182.88) (xy 83.82 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e0c746-c031-47da-8b5c-a7a54855a2b9")
-	)
-	(wire
-		(pts
-			(xy 46.99 165.1) (xy 46.99 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e50dc19-5977-4856-8014-d1185010d55a")
 	)
 	(wire
 		(pts
@@ -3492,26 +3230,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 153.67) (xy 46.99 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40e6f48a-cefd-4c0a-88f1-1d2ebf231a2e")
-	)
-	(wire
-		(pts
-			(xy 46.99 166.37) (xy 46.99 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41cd6644-ff7f-488e-b278-eddf628f4009")
-	)
-	(wire
-		(pts
 			(xy 158.75 81.28) (xy 161.29 81.28)
 		)
 		(stroke
@@ -3539,16 +3257,6 @@
 			(type default)
 		)
 		(uuid "495fab1c-e11d-4955-9845-5c67f0daaff6")
-	)
-	(wire
-		(pts
-			(xy 46.99 153.67) (xy 60.96 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b1b013f-0611-4a0f-a561-7fd74a38534f")
 	)
 	(wire
 		(pts
@@ -3742,16 +3450,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 153.67) (xy 74.93 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e468448-19b5-4032-abbe-a31a0b37156f")
-	)
-	(wire
-		(pts
 			(xy 151.13 133.35) (xy 151.13 135.89)
 		)
 		(stroke
@@ -3782,16 +3480,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 167.64) (xy 74.93 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62fe067e-ba04-4999-8cbb-b7b5a1aa08b4")
-	)
-	(wire
-		(pts
 			(xy 87.63 133.35) (xy 87.63 135.89)
 		)
 		(stroke
@@ -3812,16 +3500,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 167.64) (xy 87.63 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "653ce87f-a398-4f27-83fc-4579247dc38e")
-	)
-	(wire
-		(pts
 			(xy 168.91 68.58) (xy 168.91 74.93)
 		)
 		(stroke
@@ -3829,26 +3507,6 @@
 			(type default)
 		)
 		(uuid "6845ddb1-7afa-4485-aac5-4e534040d65c")
-	)
-	(wire
-		(pts
-			(xy 34.29 153.67) (xy 34.29 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f14d80-25d2-457b-8031-2cdc8c73bf56")
-	)
-	(wire
-		(pts
-			(xy 60.96 165.1) (xy 60.96 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b3af494-b309-4e81-a2ce-073d2ed3d71e")
 	)
 	(wire
 		(pts
@@ -3869,26 +3527,6 @@
 			(type default)
 		)
 		(uuid "6bf6d522-7916-4da1-9853-8ef4001cd026")
-	)
-	(wire
-		(pts
-			(xy 74.93 179.07) (xy 74.93 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c16dccf-81bc-41c4-a6d0-fedbc050e0fc")
-	)
-	(wire
-		(pts
-			(xy 30.48 166.37) (xy 46.99 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eca11a1-2c63-48cc-b9ff-bf94b7d0cdeb")
 	)
 	(wire
 		(pts
@@ -3922,26 +3560,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 167.64) (xy 74.93 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f313e7-a174-454f-98cc-131a4cffbf85")
-	)
-	(wire
-		(pts
-			(xy 34.29 170.18) (xy 34.29 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "782681c3-c41b-449d-be2d-8750dddd989c")
-	)
-	(wire
-		(pts
 			(xy 154.94 116.84) (xy 168.91 116.84)
 		)
 		(stroke
@@ -3969,26 +3587,6 @@
 			(type default)
 		)
 		(uuid "7ab84994-747b-4c6c-94cd-7e944c465290")
-	)
-	(wire
-		(pts
-			(xy 60.96 157.48) (xy 60.96 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7adbc2b5-8329-4d52-af99-ab489bc39d34")
-	)
-	(wire
-		(pts
-			(xy 29.21 182.88) (xy 30.48 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b49b2e7-030f-489d-9919-2ad4b0b3432f")
 	)
 	(wire
 		(pts
@@ -4192,16 +3790,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 182.88) (xy 46.99 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "972f9d3b-76e8-4ff2-afa0-7aa6bad74f51")
-	)
-	(wire
-		(pts
 			(xy 161.29 74.93) (xy 154.94 74.93)
 		)
 		(stroke
@@ -4239,16 +3827,6 @@
 			(type default)
 		)
 		(uuid "9c95b409-88d4-4a17-8dc0-8309ad5b18aa")
-	)
-	(wire
-		(pts
-			(xy 60.96 167.64) (xy 60.96 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c9e97b3-55db-41b1-adae-f622e45351fb")
 	)
 	(wire
 		(pts
@@ -4292,26 +3870,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 167.64) (xy 87.63 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1ead4a8-cf4c-4546-9c34-e458c3debaf7")
-	)
-	(wire
-		(pts
-			(xy 60.96 182.88) (xy 46.99 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5ed47e0-de8b-4b40-bf95-fe93d872f1d1")
-	)
-	(wire
-		(pts
 			(xy 132.08 87.63) (xy 140.97 87.63)
 		)
 		(stroke
@@ -4339,16 +3897,6 @@
 			(type default)
 		)
 		(uuid "a7a31869-e796-4697-90c4-2f6f840e100a")
-	)
-	(wire
-		(pts
-			(xy 46.99 179.07) (xy 46.99 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7dcb1dd-3e9b-4df3-a26f-abaf6d8d2b69")
 	)
 	(wire
 		(pts
@@ -4452,16 +4000,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 153.67) (xy 83.82 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba54e0cd-badb-4630-9b4d-78ce14c473e5")
-	)
-	(wire
-		(pts
 			(xy 189.23 87.63) (xy 200.66 87.63)
 		)
 		(stroke
@@ -4499,26 +4037,6 @@
 			(type default)
 		)
 		(uuid "be01f70e-da4b-4278-ad3e-a103172a8997")
-	)
-	(wire
-		(pts
-			(xy 34.29 182.88) (xy 34.29 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3af6c4-0161-4fa4-b275-716cebb0f347")
-	)
-	(wire
-		(pts
-			(xy 30.48 182.88) (xy 30.48 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be55727e-d3ab-48e4-a8b0-5d03b517a85b")
 	)
 	(wire
 		(pts
@@ -4602,16 +4120,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 179.07) (xy 60.96 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04b76d0-ef91-4d26-be66-b07083339a4d")
-	)
-	(wire
-		(pts
 			(xy 200.66 87.63) (xy 200.66 91.44)
 		)
 		(stroke
@@ -4672,16 +4180,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 182.88) (xy 60.96 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c8c892-8b1d-4f20-a57e-242f699a9949")
-	)
-	(wire
-		(pts
 			(xy 207.01 29.21) (xy 220.98 29.21)
 		)
 		(stroke
@@ -4709,16 +4207,6 @@
 			(type default)
 		)
 		(uuid "dcda9dc8-04e9-4362-881e-3df356b6d133")
-	)
-	(wire
-		(pts
-			(xy 30.48 170.18) (xy 34.29 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc68084-4781-4d0f-962a-0a6b02f0de3d")
 	)
 	(wire
 		(pts
@@ -4782,16 +4270,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 153.67) (xy 74.93 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b93d41-d505-4304-94d2-b735a094e11d")
-	)
-	(wire
-		(pts
 			(xy 207.01 29.21) (xy 207.01 33.02)
 		)
 		(stroke
@@ -4809,26 +4287,6 @@
 			(type default)
 		)
 		(uuid "e475484e-35d2-43b6-99f6-0906457f6584")
-	)
-	(wire
-		(pts
-			(xy 30.48 153.67) (xy 30.48 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4caf854-23c6-4866-b278-e416e4ebf685")
-	)
-	(wire
-		(pts
-			(xy 54.61 167.64) (xy 60.96 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7dfa2a4-7130-42dc-aa2b-e9518787139b")
 	)
 	(wire
 		(pts
@@ -4892,16 +4350,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 153.67) (xy 46.99 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f004c0fb-ec28-413c-9056-82fa970ccfe6")
-	)
-	(wire
-		(pts
 			(xy 151.13 123.19) (xy 151.13 125.73)
 		)
 		(stroke
@@ -4939,16 +4387,6 @@
 			(type default)
 		)
 		(uuid "fa370ef9-95be-4c83-bfa5-e3a40c4d03b1")
-	)
-	(wire
-		(pts
-			(xy 74.93 165.1) (xy 74.93 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb551fb3-828f-42bc-b786-9a44467be205")
 	)
 	(wire
 		(pts
@@ -5106,28 +4544,6 @@
 			)
 		)
 	)
-	(global_label "AC1"
-		(shape input)
-		(at 29.21 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "983df839-ac7f-4473-a75b-c0907baf9875")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6567 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CT"
 		(shape input)
 		(at 27.94 191.77 180)
@@ -5141,28 +4557,6 @@
 		(uuid "a5417011-045d-4fe3-aeaa-f27fae085483")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 22.7172 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AC2"
-		(shape input)
-		(at 29.21 182.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b6157609-9cff-4174-bc0b-318cc786644e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.6567 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5368,76 +4762,6 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 60.96 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14858fb8-2978-43f5-b67f-e79d806de391")
-		(property "Reference" "C8"
-			(at 64.77 173.1009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4700u"
-			(at 64.77 175.6409 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
-			(at 61.9252 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 60.96 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "147d3607-a53d-4844-ba6b-4c7a9b75cc3d")
-		)
-		(pin "2"
-			(uuid "fd09f892-fdce-4b0f-9362-2821be291d13")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5925,72 +5249,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 87.63 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a686210-43c0-4b94-a379-8c0e70b11b54")
-		(property "Reference" "#PWR06"
-			(at 87.63 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 87.63 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 87.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 87.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73444358-c9a9-479c-afc9-243b460d6d9f")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC547")
 		(at 166.37 102.87 0)
 		(unit 1)
@@ -6302,182 +5560,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 34.29 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42b81479-ee27-427e-98bf-fcc5913eeb0b")
-		(property "Reference" "D8"
-			(at 36.83 173.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5400"
-			(at 36.83 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 29.845 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "005b38a5-ac47-4013-8f1d-8216a1855abf")
-		)
-		(pin "2"
-			(uuid "dfa065d7-90a4-4cc9-9ad7-b949a4a20ebf")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N5400")
-		(at 46.99 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44743a9d-1fe6-44ae-82b0-db81c287aba9")
-		(property "Reference" "D7"
-			(at 49.53 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5400"
-			(at 49.53 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 42.545 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 46.99 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 46.99 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1247854-956d-4a91-82f5-22618f49a7af")
-		)
-		(pin "2"
-			(uuid "47b04e22-fdb1-4adc-8855-ec56cb9b07bd")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC557")
 		(at 97.79 54.61 180)
 		(unit 1)
@@ -6593,76 +5675,6 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 74.93 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4bcc5b3e-80f6-4b34-87bc-a02c56146907")
-		(property "Reference" "C9"
-			(at 78.74 160.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 78.74 162.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.8952 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 74.93 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "203f6215-950d-4d7b-b7a2-9605793dc5bd")
-		)
-		(pin "1"
-			(uuid "fea90a2b-4bfe-470f-9128-c30d2ea2193f")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7826,146 +6838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 60.96 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a19b419-dde0-4ac6-abd8-36d80b752f4e")
-		(property "Reference" "C7"
-			(at 64.77 159.1309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4700u"
-			(at 64.77 161.6709 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
-			(at 61.9252 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 60.96 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "306d596a-1f55-4298-a07a-78e11410c795")
-		)
-		(pin "2"
-			(uuid "bb5239e6-29ab-44a7-ae30-222c45fee511")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 74.93 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f07a16e-77d2-405f-bee1-e16dafed61cd")
-		(property "Reference" "C10"
-			(at 78.74 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 78.74 176.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.8952 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 74.93 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d72af5e3-f6c2-4083-b026-965b8d016815")
-		)
-		(pin "1"
-			(uuid "10451c62-e8db-4160-b1dc-4e8334cc9f89")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 200.66 80.01 0)
 		(unit 1)
@@ -8054,7 +6926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "25"
 			(at 30.48 109.0901 0)
 			(effects
 				(font
@@ -9743,94 +8615,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 34.29 161.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bf992caa-7ee7-42c3-8074-9cbf9c66a214")
-		(property "Reference" "D6"
-			(at 36.83 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5400"
-			(at 36.83 162.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 29.845 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 34.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 34.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 34.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 34.29 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3e9bb27-bb98-45cb-8a1d-d1f78b5c80ec")
-		)
-		(pin "2"
-			(uuid "45c47ff0-3c67-4adb-afb0-91f2036d9afe")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BC557")
 		(at 113.03 54.61 0)
 		(mirror x)
@@ -10778,94 +9562,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 46.99 175.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f490b54b-5ebc-4d73-90b7-e9a555b67e99")
-		(property "Reference" "D9"
-			(at 49.53 173.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5400"
-			(at 49.53 176.5299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 42.545 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 46.99 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5e141022-f4a8-4c2d-b929-c5e05bc9de2e")
-		)
-		(pin "2"
-			(uuid "0ec6515c-0730-4f9f-abcf-05209ed5bb2f")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 26.67 121.92 0)
 		(unit 1)
@@ -10884,7 +9580,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "25"
 			(at 30.48 123.0601 0)
 			(effects
 				(font
