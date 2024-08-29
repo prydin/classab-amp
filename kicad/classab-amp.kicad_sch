@@ -5,361 +5,6 @@
 	(uuid "856f1e14-388c-4d87-abe9-3c0c6310ec29")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Custom:MJE340C"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.842 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MJL3218C"
-				(at 10.16 -4.572 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MJE340C_0_1"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0.635 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -6.35) (xy 0.635 -4.445)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.27) (xy 0.635 -3.175)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -1.905) (xy 0.635 -5.715) (xy 0.635 -5.715)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.2446 -5.588) (xy 1.7526 -5.08) (xy 2.286 -6.096) (xy 1.2446 -5.588) (xy 1.2446 -5.588)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 -3.81)
-					(radius 2.8194)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MJE340C_1_1"
-				(pin passive line
-					(at 2.54 -8.89 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 1.27 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 -3.81 0)
-					(length 5.08)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Custom:MJE350C"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.842 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MJE350C"
-				(at 9.398 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MJE350C_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MJE350C_1_1"
-				(pin open_emitter line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Custom:MJL1302C"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1489,6 +1134,168 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4001"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4001"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?41*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4001_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4001_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Diode:1N4148"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -2243,6 +2050,410 @@
 				)
 			)
 		)
+		(symbol "Transistor_BJT:BD139"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BD139"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Low Voltage Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?126*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BD139_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.2446 -1.778) (xy 1.7526 -1.27) (xy 2.286 -2.286) (xy 1.2446 -1.778) (xy 1.2446 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BD139_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:BD140"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BD140"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Low Voltage Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?126*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BD140_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.635 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -2.286) (xy 2.286 -1.778) (xy 1.27 -1.27) (xy 1.778 -2.286) (xy 1.778 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BD140_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2533,6 +2744,12 @@
 		(uuid "0d172cd0-3f6a-4bd4-87ab-fd9d4f918844")
 	)
 	(junction
+		(at 168.91 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "12857028-3c7a-4dfe-8039-f5907f0f0cfb")
+	)
+	(junction
 		(at 105.41 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2543,12 +2760,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b3e71ff-cd1a-46e7-bf75-502580b9907c")
-	)
-	(junction
-		(at 161.29 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31d628f1-0f9a-4b35-8c2b-6556c83c6f51")
 	)
 	(junction
 		(at 220.98 87.63)
@@ -2575,10 +2786,22 @@
 		(uuid "44a60dea-bcfd-459e-b73f-eb819cf893d7")
 	)
 	(junction
+		(at 189.23 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "474f00a4-9955-4371-abe4-2c3ea9987e6f")
+	)
+	(junction
 		(at 220.98 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c453433-a0ad-4fce-9460-6f0cd1ffb098")
+	)
+	(junction
+		(at 189.23 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "510f2338-ee00-43ae-831c-116d11768074")
 	)
 	(junction
 		(at 260.35 87.63)
@@ -2591,12 +2814,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "563cddf3-087a-4626-b6c4-b4f19d46e1d2")
-	)
-	(junction
-		(at 189.23 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "576e29de-fce6-4282-9686-c95fd125f52a")
 	)
 	(junction
 		(at 189.23 106.68)
@@ -2689,12 +2906,6 @@
 		(uuid "9d5b62f5-99b9-4efc-8660-2aab65463374")
 	)
 	(junction
-		(at 168.91 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0d0060c-861c-43e0-bd77-4c2d649ba70f")
-	)
-	(junction
 		(at 220.98 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2749,6 +2960,12 @@
 		(uuid "dcb9fdbf-10e2-43d0-8948-7090244dd17a")
 	)
 	(junction
+		(at 158.75 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e247a14d-cabd-4c60-be29-a65d1af84cfc")
+	)
+	(junction
 		(at 132.08 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2767,12 +2984,6 @@
 		(uuid "e8ca4def-feaf-4e40-b593-ecf467ad312a")
 	)
 	(junction
-		(at 168.91 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ed068ea7-45d1-463b-8598-eb52d9f82c23")
-	)
-	(junction
 		(at 78.74 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2789,6 +3000,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f62a6dc4-4407-4a66-9465-3fb13ba04593")
+	)
+	(junction
+		(at 168.91 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7073636-4880-4767-bab9-fde7301345e4")
 	)
 	(junction
 		(at 64.77 87.63)
@@ -2890,7 +3107,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 109.22) (xy 168.91 116.84)
+			(xy 189.23 55.88) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b400e2-9958-456d-bfff-7115b1ff0c8d")
+	)
+	(wire
+		(pts
+			(xy 168.91 109.22) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3030,7 +3257,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 77.47) (xy 260.35 77.47)
+			(xy 256.54 82.55) (xy 260.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3080,6 +3307,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 102.87) (xy 158.75 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27438cee-86c1-48a8-b136-8654521e6343")
+	)
+	(wire
+		(pts
 			(xy 238.76 110.49) (xy 238.76 113.03)
 		)
 		(stroke
@@ -3097,16 +3334,6 @@
 			(type default)
 		)
 		(uuid "2847cf60-5d5b-468a-a46c-4661ae255118")
-	)
-	(wire
-		(pts
-			(xy 154.94 85.09) (xy 154.94 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "285c2361-b4d1-4001-9b8c-714e4a95437f")
 	)
 	(wire
 		(pts
@@ -3130,16 +3357,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 74.93) (xy 168.91 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32791366-085f-4988-afe3-3fb2e13dc13c")
-	)
-	(wire
-		(pts
 			(xy 105.41 99.06) (xy 105.41 115.57)
 		)
 		(stroke
@@ -3150,7 +3367,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 77.47) (xy 246.38 87.63)
+			(xy 246.38 82.55) (xy 246.38 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3167,6 +3384,16 @@
 			(type default)
 		)
 		(uuid "35b1acac-da2f-45e8-b303-7f71484cc8f5")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 189.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d5f362-7364-413b-a3c3-fd709e4c62f1")
 	)
 	(wire
 		(pts
@@ -3230,16 +3457,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 81.28) (xy 161.29 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "425e5483-e4f6-4c69-b75c-c418811f3742")
-	)
-	(wire
-		(pts
 			(xy 26.67 101.6) (xy 26.67 102.87)
 		)
 		(stroke
@@ -3250,7 +3467,27 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 77.47) (xy 246.38 77.47)
+			(xy 154.94 104.14) (xy 154.94 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449e420f-17da-4a0b-a3d2-676330f09363")
+	)
+	(wire
+		(pts
+			(xy 182.88 134.62) (xy 189.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49485040-701c-4a15-9b2b-d745233aed5f")
+	)
+	(wire
+		(pts
+			(xy 248.92 82.55) (xy 246.38 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3270,13 +3507,13 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 168.91 118.11)
+			(xy 154.94 90.17) (xy 168.91 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4c53ac2a-d6a6-4dd6-a20d-dadd5e223fd0")
+		(uuid "4ccb9698-10fa-4429-9881-35d91f05c499")
 	)
 	(wire
 		(pts
@@ -3300,7 +3537,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 116.84) (xy 189.23 134.62)
+			(xy 189.23 106.68) (xy 189.23 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3317,6 +3554,16 @@
 			(type default)
 		)
 		(uuid "50f0fa88-dc14-4ad6-9542-fd43fe156265")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 168.91 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54475b21-9e3f-480b-86b3-af3031800f41")
 	)
 	(wire
 		(pts
@@ -3367,16 +3614,6 @@
 			(type default)
 		)
 		(uuid "59540823-53df-43b3-8cc4-786bf143ddf1")
-	)
-	(wire
-		(pts
-			(xy 154.94 74.93) (xy 154.94 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab164c7-fba8-411a-ada4-33ef9d871ced")
 	)
 	(wire
 		(pts
@@ -3460,16 +3697,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 74.93) (xy 161.29 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6010818d-2a8f-4c1b-8da8-2484ccc628a4")
-	)
-	(wire
-		(pts
 			(xy 238.76 87.63) (xy 246.38 87.63)
 		)
 		(stroke
@@ -3500,7 +3727,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 168.91 74.93)
+			(xy 168.91 68.58) (xy 168.91 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3560,7 +3787,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 116.84) (xy 168.91 116.84)
+			(xy 154.94 118.11) (xy 168.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3580,6 +3807,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 92.71) (xy 154.94 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a851c1e-52fc-454a-9ef9-773e60b44bd2")
+	)
+	(wire
+		(pts
 			(xy 207.01 43.18) (xy 207.01 46.99)
 		)
 		(stroke
@@ -3590,7 +3827,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 87.63) (xy 261.62 87.63)
+			(xy 260.35 87.63) (xy 265.43 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3610,6 +3847,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 118.11) (xy 182.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3dbd0b-8b8b-4e23-aab7-184499c22209")
+	)
+	(wire
+		(pts
 			(xy 208.28 111.76) (xy 208.28 115.57)
 		)
 		(stroke
@@ -3620,13 +3867,23 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 77.47) (xy 260.35 87.63)
+			(xy 260.35 82.55) (xy 260.35 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81b04639-3ee0-4f04-908c-a235adc23807")
+	)
+	(wire
+		(pts
+			(xy 168.91 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839179db-b259-42df-aee3-415736702f0b")
 	)
 	(wire
 		(pts
@@ -3690,6 +3947,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 118.11) (xy 182.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac9e290-87f6-4ab9-bfdc-2a6bde40f0c8")
+	)
+	(wire
+		(pts
 			(xy 20.32 116.84) (xy 20.32 115.57)
 		)
 		(stroke
@@ -3700,6 +3967,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 123.19) (xy 189.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f3a287b-bfd6-4f2e-9ffe-2c52b9318e28")
+	)
+	(wire
+		(pts
 			(xy 196.85 68.58) (xy 196.85 73.66)
 		)
 		(stroke
@@ -3707,16 +3984,6 @@
 			(type default)
 		)
 		(uuid "8f9dff78-495d-4dad-abd1-8add052a5e76")
-	)
-	(wire
-		(pts
-			(xy 168.91 74.93) (xy 161.29 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "919fe622-17a2-4769-ae13-67f0569d55d2")
 	)
 	(wire
 		(pts
@@ -3790,16 +4057,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 74.93) (xy 154.94 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "975fd314-cc3a-4e5f-83ba-940f6687ad54")
-	)
-	(wire
-		(pts
 			(xy 200.66 73.66) (xy 204.47 73.66)
 		)
 		(stroke
@@ -3817,16 +4074,6 @@
 			(type default)
 		)
 		(uuid "981a4bef-7b3b-4e37-9ae0-3bfac8822aeb")
-	)
-	(wire
-		(pts
-			(xy 154.94 113.03) (xy 154.94 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c95b409-88d4-4a17-8dc0-8309ad5b18aa")
 	)
 	(wire
 		(pts
@@ -3940,13 +4187,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 154.94 105.41)
+			(xy 180.34 68.58) (xy 180.34 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad361fef-55a2-4ee5-89c2-cc17c9360ae5")
+		(uuid "b2c3eac2-1f32-4847-b4ad-18c52c4ce40f")
 	)
 	(wire
 		(pts
@@ -3977,16 +4224,6 @@
 			(type default)
 		)
 		(uuid "b5e9d600-fa70-452b-9b01-c335b575bf44")
-	)
-	(wire
-		(pts
-			(xy 189.23 106.68) (xy 189.23 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b20327-1dde-46ed-9aae-31cb244166bb")
 	)
 	(wire
 		(pts
@@ -4050,13 +4287,23 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 102.87) (xy 161.29 102.87)
+			(xy 154.94 102.87) (xy 158.75 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c05b7422-a424-4783-b1d8-ed6e4251be16")
+	)
+	(wire
+		(pts
+			(xy 154.94 111.76) (xy 154.94 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25e8ae7-b18f-4d34-8bbc-75704c58cb8e")
 	)
 	(wire
 		(pts
@@ -4170,16 +4417,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 116.84) (xy 189.23 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d997bcc0-66a7-439b-9844-f632304e4491")
-	)
-	(wire
-		(pts
 			(xy 207.01 29.21) (xy 220.98 29.21)
 		)
 		(stroke
@@ -4230,16 +4467,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 191.77) (xy 54.61 191.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0d7ed68-cbf3-4142-8eb2-e3ee4645ae0c")
-	)
-	(wire
-		(pts
 			(xy 106.68 62.23) (xy 115.57 62.23)
 		)
 		(stroke
@@ -4250,16 +4477,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 191.77) (xy 54.61 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e263109e-310f-4970-9ad5-f9de67ec38b5")
-	)
-	(wire
-		(pts
 			(xy 80.01 135.89) (xy 80.01 133.35)
 		)
 		(stroke
@@ -4267,6 +4484,16 @@
 			(type default)
 		)
 		(uuid "e275c3ef-0bee-430d-93ee-e42a4bfbdc13")
+	)
+	(wire
+		(pts
+			(xy 158.75 102.87) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e333831d-d5da-42b5-88ac-2577b2038f8f")
 	)
 	(wire
 		(pts
@@ -4330,16 +4557,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 68.58) (xy 189.23 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef393006-b3d6-4e52-948d-4f7837f255e2")
-	)
-	(wire
-		(pts
 			(xy 220.98 52.07) (xy 220.98 63.5)
 		)
 		(stroke
@@ -4370,7 +4587,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 38.1) (xy 189.23 68.58)
+			(xy 189.23 38.1) (xy 189.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4418,16 +4635,6 @@
 		)
 		(uuid "1c2da186-401c-452f-8a77-c3f81881ef2c")
 	)
-	(text "TODO: Double check pinout!"
-		(exclude_from_sim no)
-		(at 224.79 139.954 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2b857eb6-f7f6-4595-9153-a7edc08af9a6")
-	)
 	(text "3W"
 		(exclude_from_sim no)
 		(at 68.072 115.57 0)
@@ -4448,9 +4655,19 @@
 		)
 		(uuid "38bb82e7-9b42-4af4-87fb-0d0915a8fb93")
 	)
+	(text "BIAS\nTRIM"
+		(exclude_from_sim no)
+		(at 145.796 108.204 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4205b53a-b977-4d0c-90a7-9615af9adf07")
+	)
 	(text "3W"
 		(exclude_from_sim no)
-		(at 225.806 100.584 0)
+		(at 225.298 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4460,23 +4677,13 @@
 	)
 	(text "3W"
 		(exclude_from_sim no)
-		(at 252.476 91.44 0)
+		(at 252.73 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "b2f1c9b2-a8d3-40c5-8459-1322cfc970a9")
-	)
-	(text "TODO: Double check pinout!"
-		(exclude_from_sim no)
-		(at 223.774 34.036 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f906edbe-04bc-4f0a-aa64-264f4d8f24af")
 	)
 	(global_label "B-"
 		(shape input)
@@ -4544,9 +4751,31 @@
 			)
 		)
 	)
-	(global_label "CT"
+	(global_label "SPEAKER"
+		(shape output)
+		(at 265.43 87.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61c94cdf-89ee-4882-8883-7e60c18c181c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.8213 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "INPUT"
 		(shape input)
-		(at 27.94 191.77 180)
+		(at 41.91 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4554,9 +4783,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a5417011-045d-4fe3-aeaa-f27fae085483")
+		(uuid "b3db2144-82f7-4ae3-8134-ee787682c0fc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.7172 191.77 0)
+			(at 33.4214 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,115 +4814,6 @@
 				)
 				(justify left)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Trim")
-		(at 154.94 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "080431b8-12df-486a-894c-a1fea6ef8120")
-		(property "Reference" "RV1"
-			(at 152.4 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 152.4 82.5499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trim-potentiometer"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Params" "r=10 pos=0.6"
-			(at 154.94 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9bd3aa00-b88d-4afd-bfec-afa2533784ed")
-		)
-		(pin "1"
-			(uuid "cdecceb5-cb37-49ba-beaa-5c2d50f68c57")
-		)
-		(pin "2"
-			(uuid "855ee686-36f9-4922-8d17-469d55af5ae6")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "RV1")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -4762,6 +4882,83 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BD140")
+		(at 166.37 54.61 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22e29b8f-ce07-44f3-a31c-7e7044c0824b")
+		(property "Reference" "Q6"
+			(at 171.45 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD140"
+			(at 171.45 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 171.45 52.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(at 166.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01148fed-e529-4dab-9f6d-18280100193d")
+		)
+		(pin "2"
+			(uuid "5a7473e9-a585-4f3f-a688-33446ad6cafe")
+		)
+		(pin "3"
+			(uuid "04e25b62-a412-4179-912e-5b714b8e1c5b")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -5125,6 +5322,79 @@
 			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Trim")
+		(at 154.94 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "334077a2-4311-402d-9824-da268efb1d7f")
+		(property "Reference" "RV1"
+			(at 152.4 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5k"
+			(at 152.4 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trim-potentiometer"
+			(at 154.94 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "261bf93a-aeab-4d3d-9e99-24f11a4248bb")
+		)
+		(pin "2"
+			(uuid "a9635721-fdf8-4c3e-aada-d973c4e58b65")
+		)
+		(pin "3"
+			(uuid "60e6f70b-032b-46ee-87ac-3cc7676119c5")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -5560,6 +5830,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4001")
+		(at 189.23 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45e5cf01-74f6-4e82-9568-719e32abb152")
+		(property "Reference" "D6"
+			(at 191.77 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 191.77 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29c8037a-f01b-40ab-993b-5dcd67733e1e")
+		)
+		(pin "2"
+			(uuid "92075dac-9046-408b-9d17-50a766b6964b")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC557")
 		(at 97.79 54.61 180)
 		(unit 1)
@@ -5758,10 +6116,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "52cc20bc-c85d-49e3-80b8-57d51130ed81")
 		(property "Reference" "R21"
-			(at 252.73 81.28 90)
+			(at 252.984 90.932 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +6126,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 252.73 83.82 90)
+			(at 252.984 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5813,124 +6170,6 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Custom:MJE350C")
-		(at 205.74 134.62 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "564e238a-6f6e-4efb-900b-5ed87785c849")
-		(property "Reference" "Q11"
-			(at 210.82 135.8901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MJE350C"
-			(at 210.82 133.3501 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\bjt.mod"
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "MJE350C"
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 205.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c4533499-76d8-4712-beef-27a93a9890ce")
-		)
-		(pin "3"
-			(uuid "89b7c4ba-5f16-49bc-b74c-d47fffdc8965")
-		)
-		(pin "1"
-			(uuid "8bf527c5-de34-479a-aee5-4f1529f8686f")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "Q11")
 					(unit 1)
 				)
 			)
@@ -6355,127 +6594,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 166.37 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "698751bb-1e06-4798-b21a-c1ed5a5981bb")
-		(property "Reference" "Q8"
-			(at 171.45 121.9199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 171.45 124.4599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 171.45 125.095 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC547.mod"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "QBC547BP"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 166.37 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3626aaac-06eb-49e6-8da0-8a9374e8262f")
-		)
-		(pin "3"
-			(uuid "d79d8f37-79ef-43a3-ba04-db2442efea19")
-		)
-		(pin "1"
-			(uuid "50dd9ac2-eaae-4a7c-b094-37be53cf08c8")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "Q8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 130.81 68.58 90)
 		(unit 1)
@@ -6538,6 +6656,82 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BD139")
+		(at 204.47 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73f9c6bf-406b-4ed6-9291-cd1ab98998bf")
+		(property "Reference" "Q9"
+			(at 209.55 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD139"
+			(at 209.55 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 209.55 40.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(at 204.47 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c183efa6-2aca-4e41-927e-d3b9ded645da")
+		)
+		(pin "2"
+			(uuid "5936680b-25fe-4240-9820-9eadda3072c9")
+		)
+		(pin "3"
+			(uuid "9ae995d6-1ca0-4fe7-9cc5-46b7ce28cea7")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "Q9")
 					(unit 1)
 				)
 			)
@@ -7141,7 +7335,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 252.73 77.47 90)
+		(at 252.73 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7150,7 +7344,7 @@
 		(fields_autoplaced yes)
 		(uuid "877dc1d6-7b69-4c77-a02c-e147513cd20b")
 		(property "Reference" "L1"
-			(at 252.73 72.39 90)
+			(at 252.73 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7352,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 252.73 74.93 90)
+			(at 252.73 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7360,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 77.47 0)
+			(at 252.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7369,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 77.47 0)
+			(at 252.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7378,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 252.73 77.47 0)
+			(at 252.73 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,6 +7514,94 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4001")
+		(at 189.23 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a77e368-2d10-4a7f-9aca-9b0f71257c5c")
+		(property "Reference" "D3"
+			(at 191.77 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4001"
+			(at 191.77 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd9062fa-46bb-439d-9457-6996be58d6b6")
+		)
+		(pin "2"
+			(uuid "9a50d33c-c942-4c23-ab8c-cbd3a6b4a3b2")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -7658,6 +7940,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 238.76 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "99513ccf-710c-4b9c-a21f-d5ac7589bfdf")
+		(property "Reference" "C3"
+			(at 235.204 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "100n"
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 239.7252 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c609b43a-6284-4069-889a-d5da1c2aba14")
+		)
+		(pin "2"
+			(uuid "c45c04da-b76e-4c45-a317-176c1fcd0b2c")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 162.56 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7726,7 +8078,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 109.22 0)
+		(at 154.94 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7735,7 +8087,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c2f7a26-46d0-4eb5-9d72-05d205522f39")
 		(property "Reference" "R12"
-			(at 157.48 107.9499 0)
+			(at 157.48 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,8 +8095,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 157.48 110.4899 0)
+		(property "Value" "6.8k"
+			(at 157.48 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +8105,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 153.162 109.22 90)
+			(at 153.162 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +8114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 109.22 0)
+			(at 154.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7771,7 +8123,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 109.22 0)
+			(at 154.94 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8063,76 +8415,6 @@
 			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 238.76 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6cfe654-9331-4823-b1c1-40b94d5b670a")
-		(property "Reference" "C3"
-			(at 242.57 93.0909 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 242.57 95.6309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
-			(at 239.7252 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 238.76 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7b061d74-a34d-47ae-b4d4-6af5f838f68d")
-		)
-		(pin "1"
-			(uuid "de4379c0-b239-4031-b36d-3cf3d5c55ab7")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8806,124 +9088,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Custom:MJE340C")
-		(at 204.47 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c921b026-a1ec-4bd3-ae2c-0487c4d44152")
-		(property "Reference" "Q9"
-			(at 209.55 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MJ340C"
-			(at 209.55 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\bjt.mod"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "MJE340C"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "NPN"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=E 2=C 3=B"
-			(at 204.47 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3f24c3d9-2339-42a6-87b9-cbd4ed6cad0d")
-		)
-		(pin "2"
-			(uuid "44b879ad-9589-461b-a97a-47e9250f938c")
-		)
-		(pin "3"
-			(uuid "5f1c042b-f234-44e5-be5d-9ded436fafee")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 78.74 95.25 0)
 		(unit 1)
@@ -9562,6 +9726,159 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BD139")
+		(at 166.37 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f19ba809-c5ce-47d4-93c1-a5b79d752e37")
+		(property "Reference" "Q8"
+			(at 171.45 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD139"
+			(at 171.45 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 171.45 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(at 166.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "3c795372-6fe4-4b4b-b12a-a0f598477f87")
+		)
+		(pin "1"
+			(uuid "e330cdf0-7d77-4633-9ad9-c88d3aa06338")
+		)
+		(pin "2"
+			(uuid "41001b0f-12d9-46dc-8502-b42f22aa66f1")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:BD140")
+		(at 205.74 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f435c4e4-3232-418e-82ba-63e71dfe1f26")
+		(property "Reference" "Q11"
+			(at 210.82 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD140"
+			(at 210.82 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 210.82 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ic, 80V Vce, Low Voltage Transistor, TO-126"
+			(at 205.74 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "48857f34-a3c4-46e1-94a7-0fdce75be1b6")
+		)
+		(pin "1"
+			(uuid "9c496d8b-57a5-4fad-a886-50cc2c45964c")
+		)
+		(pin "2"
+			(uuid "0ded294f-ebe0-4beb-9283-6b301fc3d226")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 26.67 121.92 0)
 		(unit 1)
@@ -10031,127 +10348,6 @@
 			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC557")
-		(at 166.37 54.61 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff547124-dd76-4963-bd18-82b84f29edc8")
-		(property "Reference" "Q6"
-			(at 171.45 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC557"
-			(at 171.45 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 171.45 52.705 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "C:\\proj\\classab-amp\\spice\\BC557.mod"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "BC557"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PNP"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "GUMMELPOON"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "56d366d3-926c-470f-9741-39aa1d7923b0")
-		)
-		(pin "1"
-			(uuid "827c6f80-ac0b-4123-9733-be6016331ad1")
-		)
-		(pin "3"
-			(uuid "3e2fa856-42ef-44c7-ab2b-cf14f268577e")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "Q6")
 					(unit 1)
 				)
 			)
