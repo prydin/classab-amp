@@ -87,4 +87,5 @@ The amplifier has a 3dB bandwidth of about 72kHz, which is by no means in the au
 range to make both the amplitude and phase response vritually flat where it matters. I am of the opinion that nothing >20kHz has any impact on
 the listening experience.
 
+![Bode plot](images/bode.png)
 
