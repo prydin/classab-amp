@@ -867,7 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 119.38) (xy 85.09 119.38)
+			(xy 67.31 119.38) (xy 85.09 119.38)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +897,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 68.58 118.11)
+			(xy 64.77 118.11) (xy 67.31 118.11)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +967,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 123.19) (xy 68.58 123.19)
+			(xy 64.77 123.19) (xy 67.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -997,7 +997,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 121.92) (xy 68.58 123.19)
+			(xy 67.31 121.92) (xy 67.31 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +1027,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 99.06 120.65)
+			(xy 64.77 120.65) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1177,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 121.92) (xy 72.39 121.92)
+			(xy 67.31 121.92) (xy 72.39 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1207,7 +1207,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 118.11) (xy 68.58 119.38)
+			(xy 67.31 118.11) (xy 67.31 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1234,6 +1234,50 @@
 			(type default)
 		)
 		(uuid "ff5ad1de-e4d8-4d6d-a4a6-136b59c6e0a1")
+	)
+	(label "AC1"
+		(at 67.31 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "025f80f6-7b7d-45d2-9e9b-894b6b851c7b")
+	)
+	(label "AC2"
+		(at 67.31 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d4a8521-139d-47e8-a2f5-926315b8e12b")
+	)
+	(label "V-"
+		(at 132.08 135.89 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afdec63f-e07f-4944-8769-b30a954a176d")
+	)
+	(label "V+"
+		(at 132.08 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1c628b7-9bdf-4d91-b11e-ebe17b7038b4")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1531,7 +1575,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x03")
-		(at 60.96 120.65 180)
+		(at 59.69 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1540,7 +1584,7 @@
 		(fields_autoplaced yes)
 		(uuid "584b5977-76d8-470c-81a9-a43d4051acaf")
 		(property "Reference" "J1"
-			(at 60.96 111.76 0)
+			(at 59.69 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1592,7 @@
 			)
 		)
 		(property "Value" "AC IN"
-			(at 60.96 114.3 0)
+			(at 59.69 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,7 +1600,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1565,7 +1609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1574,7 +1618,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 60.96 120.65 0)
+			(at 59.69 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
