@@ -1,6 +1,6 @@
 # 50W Class AB Amplififier
 
-![Schematic](images/3d.png)
+![3D rendering](images/3d.png)
 
 ## Disclaimer
 This amplifier has not yet been built and tested. It performs beautifully in SPICE, but has yet to be tested in real life. You are
