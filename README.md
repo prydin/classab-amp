@@ -60,24 +60,29 @@ as well.
 All simulations are done with an 8 ohm resistive dummy load, 1V input at 1kHz.
 
 ### THD
-SPICE seems to run out of numeric precision when calculating the THD. It is safe to say it's <0.01%.
+At a fairly moderate quiescent current of 15mA, I get a THD of 0.025%. A THD below 0.1% is considered to be inaudible, so these numbers
+are fine by me. I know there are audiophiles who insist on THD numbers <0.0001%, but I'm not one of them. Inaudible is just fine by me.
+
+I've gotten suggestions that adding an emitter follower to the VAS might improve THD. I might try that, but I have a feeling there will 
+be more pressing matters than getting the THD even more inaudible. 
+
 ```Fourier components of V(out)
-DC component:-0.00400008
+DC component:-0.00709555
 
 Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
  Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
-    1   	 1.000e+3	 2.087e+1	 1.000e+0	   90.67°	    0.00°
-    2   	 2.000e+3	 2.007e-3	 9.619e-5	  -79.54°	 -170.21°
-    3   	 3.000e+3	 2.126e-4	 1.019e-5	  116.17°	   25.50°
-    4   	 4.000e+3	 4.388e-4	 2.103e-5	  107.85°	   17.18°
-    5   	 5.000e+3	 9.358e-4	 4.484e-5	 -143.72°	 -234.39°
-    6   	 6.000e+3	 1.890e-4	 9.056e-6	 -114.78°	 -205.45°
-    7   	 7.000e+3	 7.583e-4	 3.634e-5	 -169.98°	 -260.65°
-    8   	 8.000e+3	 1.213e-4	 5.812e-6	   85.76°	   -4.91°
-    9   	 9.000e+3	 7.077e-4	 3.391e-5	 -164.61°	 -255.28°
-   10   	 1.000e+4	 1.087e-4	 5.208e-6	  -44.96°	 -135.63°
-Partial Harmonic Distortion: 0.012010%
-Total Harmonic Distortion:   0.000000%
+    1   	 1.000e+3	 2.086e+1	 1.000e+0	   90.68°	    0.00°
+    2   	 2.000e+3	 3.254e-3	 1.560e-4	  -81.18°	 -171.86°
+    3   	 3.000e+3	 1.410e-3	 6.760e-5	   15.46°	  -75.22°
+    4   	 4.000e+3	 1.064e-3	 5.098e-5	  101.85°	   11.17°
+    5   	 5.000e+3	 1.038e-3	 4.975e-5	 -151.33°	 -242.01°
+    6   	 6.000e+3	 2.289e-4	 1.097e-5	  -96.94°	 -187.62°
+    7   	 7.000e+3	 2.021e-4	 9.686e-6	 -154.64°	 -245.32°
+    8   	 8.000e+3	 1.447e-4	 6.935e-6	  106.76°	   16.08°
+    9   	 9.000e+3	 5.116e-4	 2.452e-5	 -167.01°	 -257.69°
+   10   	 1.000e+4	 1.460e-4	 6.996e-6	 -115.50°	 -206.18°
+Partial Harmonic Distortion: 0.018677%
+Total Harmonic Distortion:   0.025368%
 ```
 
 ![FFT](images/fft.png)
