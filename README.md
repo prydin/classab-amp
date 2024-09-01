@@ -54,3 +54,37 @@ as well.
 
 # Schematic
 ![Schematic](images/schematic.png)
+
+## SPICE simulations
+
+All simulations are done with an 8 ohm resistive dummy load, 1V input at 1kHz.
+
+### THD
+SPICE seems to run out of numeric precision when calculating the THD. It is safe to say it's <0.01%.
+```Fourier components of V(out)
+DC component:-0.00400008
+
+Harmonic	Frequency	 Fourier 	Normalized	 Phase  	Normalized
+ Number 	  [Hz]   	Component	 Component	[degree]	Phase [deg]
+    1   	 1.000e+3	 2.087e+1	 1.000e+0	   90.67°	    0.00°
+    2   	 2.000e+3	 2.007e-3	 9.619e-5	  -79.54°	 -170.21°
+    3   	 3.000e+3	 2.126e-4	 1.019e-5	  116.17°	   25.50°
+    4   	 4.000e+3	 4.388e-4	 2.103e-5	  107.85°	   17.18°
+    5   	 5.000e+3	 9.358e-4	 4.484e-5	 -143.72°	 -234.39°
+    6   	 6.000e+3	 1.890e-4	 9.056e-6	 -114.78°	 -205.45°
+    7   	 7.000e+3	 7.583e-4	 3.634e-5	 -169.98°	 -260.65°
+    8   	 8.000e+3	 1.213e-4	 5.812e-6	   85.76°	   -4.91°
+    9   	 9.000e+3	 7.077e-4	 3.391e-5	 -164.61°	 -255.28°
+   10   	 1.000e+4	 1.087e-4	 5.208e-6	  -44.96°	 -135.63°
+Partial Harmonic Distortion: 0.012010%
+Total Harmonic Distortion:   0.000000%
+```
+
+![FFT](images/fft.png)
+
+### AC Analysis
+The amplifier has a 3dB bandwidth of about 72kHz, which is by no means in the audiophile range, but it keeps any poles far away from the audible 
+range to make both the amplitude and phase response vritually flat where it matters. I am of the opinion that nothing >20kHz has any impact on
+the listening experience.
+
+
