@@ -5,6 +5,246 @@
 	(uuid "5ab529a0-3114-4987-9e81-df8dc6eb7dbb")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x03"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x03"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -299,9 +539,10 @@
 				)
 			)
 		)
-		(symbol "Diode:1N5400"
+		(symbol "Device:D"
 			(pin_numbers hide)
-			(pin_names hide)
+			(pin_names
+				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -313,7 +554,7 @@
 					)
 				)
 			)
-			(property "Value" "1N5400"
+			(property "Value" "D"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -321,16 +562,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -339,7 +571,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -375,7 +616,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "D*DO?201AD*"
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -384,7 +625,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N5400_0_1"
+			(symbol "D_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -422,7 +663,7 @@
 					)
 				)
 			)
-			(symbol "1N5400_1_1"
+			(symbol "D_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -565,6 +806,12 @@
 		(uuid "16952ba9-f36e-4665-a466-7ece551c34d1")
 	)
 	(junction
+		(at 125.73 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4213ebb4-8b9f-4e72-997c-fd66c7d6a2a8")
+	)
+	(junction
 		(at 99.06 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -630,16 +877,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 99.06 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b2b58e2-71d1-4299-8427-8cb944ccf9e8")
-	)
-	(wire
-		(pts
 			(xy 99.06 132.08) (xy 99.06 135.89)
 		)
 		(stroke
@@ -657,6 +894,16 @@
 			(type default)
 		)
 		(uuid "18904046-b963-4776-9ef1-d65b59163619")
+	)
+	(wire
+		(pts
+			(xy 66.04 118.11) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9d453a-0b31-4edd-a030-a5729f1d13a0")
 	)
 	(wire
 		(pts
@@ -680,17 +927,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 106.68) (xy 68.58 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "291b6de9-f88f-4e5e-93d6-e105cbd45e88")
-	)
-	(wire
-		(pts
-			(xy 113.03 106.68) (xy 121.92 106.68)
+			(xy 113.03 106.68) (xy 132.08 106.68)
 		)
 		(stroke
 			(width 0)
@@ -730,6 +967,26 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 123.19) (xy 68.58 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49dd4446-6d7d-4dd5-bad1-9eb900c1698d")
+	)
+	(wire
+		(pts
+			(xy 132.08 123.19) (xy 132.08 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b9fa808-08d8-4283-b46a-b11542c79db7")
+	)
+	(wire
+		(pts
 			(xy 85.09 106.68) (xy 99.06 106.68)
 		)
 		(stroke
@@ -740,13 +997,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 135.89) (xy 68.58 135.89)
+			(xy 68.58 121.92) (xy 68.58 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55e3738f-1bed-4803-9351-e01b73ef57af")
+		(uuid "5689779d-9c5e-4819-98d2-88810720f29f")
 	)
 	(wire
 		(pts
@@ -760,23 +1017,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 135.89) (xy 68.58 121.92)
+			(xy 125.73 120.65) (xy 132.08 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "66b291b3-ed3b-4511-9809-446d05064087")
+		(uuid "78e15af4-74de-4144-804f-c6fe27105465")
 	)
 	(wire
 		(pts
-			(xy 68.58 106.68) (xy 68.58 119.38)
+			(xy 66.04 120.65) (xy 99.06 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d1a125b-fb40-423a-b9d0-5836dabe3b3c")
+		(uuid "78fdd556-c7af-4bef-814d-21d33c959ab8")
 	)
 	(wire
 		(pts
@@ -797,6 +1054,16 @@
 			(type default)
 		)
 		(uuid "84b05c12-c184-4f46-a334-9fd8183c7028")
+	)
+	(wire
+		(pts
+			(xy 132.08 106.68) (xy 132.08 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e60d9d-c0c5-48d0-b58d-cd5c52acdff4")
 	)
 	(wire
 		(pts
@@ -940,6 +1207,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 118.11) (xy 68.58 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97b2022-3d23-48e8-acfa-2d77fff6c815")
+	)
+	(wire
+		(pts
 			(xy 72.39 135.89) (xy 85.09 135.89)
 		)
 		(stroke
@@ -950,123 +1227,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 135.89) (xy 121.92 135.89)
+			(xy 113.03 135.89) (xy 132.08 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ff5ad1de-e4d8-4d6d-a4a6-136b59c6e0a1")
-	)
-	(global_label "CT"
-		(shape input)
-		(at 66.04 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3908d9a9-1c31-4530-87b6-5130c93aff70")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.8172 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B+"
-		(shape output)
-		(at 121.92 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8dfe5dff-c7f9-4fa8-8ae1-8c4edb9bc809")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7476 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AC1"
-		(shape input)
-		(at 67.31 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a7212536-55c4-4e3b-9e4d-c9bff12e3d61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7567 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "AC2"
-		(shape input)
-		(at 67.31 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf3f4600-1d79-4466-ae1d-e51f9c8e2035")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.7567 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "B-"
-		(shape output)
-		(at 121.92 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d9686bb2-ec31-4b1d-932e-055fc607b216")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7476 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1205,17 +1372,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 72.39 128.27 270)
+		(lib_id "Device:D")
+		(at 72.39 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "37aef672-02aa-4a76-8590-f2729bde8c8c")
-		(property "Reference" "D2"
-			(at 74.93 126.9999 90)
+		(uuid "376a1140-95fa-4024-b0c2-6413ebe3ff86")
+		(property "Reference" "D3"
+			(at 74.93 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,8 +1390,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5400"
-			(at 74.93 129.5399 90)
+		(property "Value" "GI754"
+			(at 74.93 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1232,8 +1399,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 67.945 128.27 0)
+		(property "Footprint" "Diode_THT:D_P600_R-6_P12.70mm_Horizontal"
+			(at 72.39 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1241,8 +1408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 72.39 128.27 0)
+		(property "Datasheet" "~"
+			(at 72.39 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1250,8 +1417,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 72.39 128.27 0)
+		(property "Description" "Diode"
+			(at 72.39 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1260,7 +1427,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 72.39 128.27 0)
+			(at 72.39 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1436,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 128.27 0)
+			(at 72.39 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,15 +1445,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "99b0e956-13f4-4376-83ee-bd1f20771edb")
+			(uuid "65dfe7c2-39d5-4eb5-a963-a99eecd9e76b")
 		)
 		(pin "2"
-			(uuid "b56bf2fe-39f1-43c1-a9e2-a9a09e29dea0")
+			(uuid "dd11712f-d89c-4afe-8ab5-2c594ec7df6f")
 		)
 		(instances
-			(project "power_supply"
+			(project ""
 				(path "/5ab529a0-3114-4987-9e81-df8dc6eb7dbb"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1363,44 +1530,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 85.09 128.27 270)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 60.96 120.65 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "51272b52-5b8d-473f-a405-1d871ed21c57")
-		(property "Reference" "D4"
-			(at 87.63 126.9999 90)
+		(uuid "584b5977-76d8-470c-81a9-a43d4051acaf")
+		(property "Reference" "J1"
+			(at 60.96 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1N5400"
-			(at 87.63 129.5399 90)
+		(property "Value" "AC IN"
+			(at 60.96 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 80.645 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 85.09 128.27 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,8 +1564,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 85.09 128.27 0)
+		(property "Datasheet" "~"
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,34 +1573,28 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 85.09 128.27 0)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 60.96 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 85.09 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93ee4482-ec13-4384-8c04-a0743b66a410")
 		)
 		(pin "2"
-			(uuid "f79cfae2-c7d2-49a7-be61-e466c8c3bfd7")
+			(uuid "1cff9517-e7e3-4e42-b876-e438eab46755")
+		)
+		(pin "3"
+			(uuid "7e49e046-8589-479f-a143-9c6977a89769")
+		)
+		(pin "1"
+			(uuid "82a97926-5e48-4af9-a476-4a7f904a280a")
 		)
 		(instances
-			(project "power_supply"
+			(project ""
 				(path "/5ab529a0-3114-4987-9e81-df8dc6eb7dbb"
-					(reference "D4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -1478,7 +1628,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 113.9952 118.11 0)
 			(effects
 				(font
@@ -1521,7 +1671,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
+		(lib_id "Device:D")
 		(at 85.09 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1529,8 +1679,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a7b402bc-f11b-42cd-af94-ba3fbacff678")
-		(property "Reference" "D3"
+		(uuid "b70baa92-684b-4dbe-8289-ac9975e469a5")
+		(property "Reference" "D1"
 			(at 87.63 113.0299 90)
 			(effects
 				(font
@@ -1539,7 +1689,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5400"
+		(property "Value" "GI754"
 			(at 87.63 115.5699 90)
 			(effects
 				(font
@@ -1548,16 +1698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 80.645 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
+		(property "Footprint" "Diode_THT:D_P600_R-6_P12.70mm_Horizontal"
 			(at 85.09 114.3 0)
 			(effects
 				(font
@@ -1566,7 +1707,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
+		(property "Datasheet" "~"
+			(at 85.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
 			(at 85.09 114.3 0)
 			(effects
 				(font
@@ -1594,15 +1744,103 @@
 			)
 		)
 		(pin "1"
-			(uuid "e8b650c3-a257-4bdb-9b1c-57b68b50d95e")
+			(uuid "b35f4853-f0bb-440e-9cb3-3850112430ed")
 		)
 		(pin "2"
-			(uuid "4f88b80b-7788-4b73-80c0-e54b2ceecc50")
+			(uuid "6edea54d-c88d-4cb8-91e5-2e1184b53d9e")
 		)
 		(instances
-			(project "power_supply"
+			(project ""
 				(path "/5ab529a0-3114-4987-9e81-df8dc6eb7dbb"
-					(reference "D3")
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 85.09 128.27 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce884c25-81ca-4522-93c3-6eb367fb9bd4")
+		(property "Reference" "D4"
+			(at 87.63 126.9999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GI754"
+			(at 87.63 129.5399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_P600_R-6_P12.70mm_Horizontal"
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 85.09 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "42c46fca-d9b6-48ec-a515-3de82e736cf5")
+		)
+		(pin "1"
+			(uuid "44bdbbbb-8ffa-41cd-bad8-8d60bd8a062e")
+		)
+		(instances
+			(project ""
+				(path "/5ab529a0-3114-4987-9e81-df8dc6eb7dbb"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1636,7 +1874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 113.9952 132.08 0)
 			(effects
 				(font
@@ -1679,17 +1917,88 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 72.39 114.3 270)
+		(lib_id "Connector:Screw_Terminal_01x03")
+		(at 137.16 120.65 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da7451f4-cfcc-4bc4-b250-611d339e336a")
+		(property "Reference" "J2"
+			(at 137.16 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DC OUT"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-3-3.5-H_1x03_P3.50mm_Horizontal"
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6884a28f-d68c-47bd-8028-39185834cafb")
+		)
+		(pin "3"
+			(uuid "2732a5e9-b3f5-48c8-94c9-33313a7df8e6")
+		)
+		(pin "1"
+			(uuid "2740c9bb-e7ff-4991-9145-af6200876777")
+		)
+		(instances
+			(project "power_supply"
+				(path "/5ab529a0-3114-4987-9e81-df8dc6eb7dbb"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 72.39 128.27 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da4ebcc3-9328-443e-a744-d41910e62c77")
-		(property "Reference" "D1"
-			(at 74.93 113.0299 90)
+		(uuid "f1997607-6e2e-4f78-b00a-7c6ad099450e")
+		(property "Reference" "D2"
+			(at 74.93 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,8 +2006,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1N5400"
-			(at 74.93 115.5699 90)
+		(property "Value" "GI754"
+			(at 74.93 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,8 +2015,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 67.945 114.3 0)
+		(property "Footprint" "Diode_THT:D_P600_R-6_P12.70mm_Horizontal"
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,8 +2024,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 72.39 114.3 0)
+		(property "Datasheet" "~"
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,8 +2033,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 72.39 114.3 0)
+		(property "Description" "Diode"
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +2043,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 72.39 114.3 0)
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +2052,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 72.39 114.3 0)
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1751,16 +2060,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "f8949643-1f4d-4de3-9c9c-92e6bf0872a3")
-		)
 		(pin "2"
-			(uuid "ca723e10-b19b-4eb4-9488-472f72ac99af")
+			(uuid "720f295e-e334-423c-a337-acf0765cd991")
+		)
+		(pin "1"
+			(uuid "84db811e-ba7d-4311-8017-47ed2c6f1378")
 		)
 		(instances
-			(project "power_supply"
+			(project ""
 				(path "/5ab529a0-3114-4987-9e81-df8dc6eb7dbb"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
