@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/")
 		)
 	)
 	(net 0 "")
@@ -92,7 +92,7 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*5.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7.2mm width 5.5mm Capacitor")
 		(property "Reference" "C4"
-			(at 2.5 -4 360)
+			(at 2.5 -4 0)
 			(layer "F.SilkS")
 			(uuid "5f1a2991-fb51-45c5-9154-819fc62bc7ce")
 			(effects
@@ -103,7 +103,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 2.5 4 360)
+			(at 2.5 4 0)
 			(layer "F.Fab")
 			(uuid "4f186a5e-5b04-40c6-b467-d864e49e69ce")
 			(effects
@@ -278,7 +278,7 @@
 			(uuid "167c187d-bbd9-4176-b500-fc0d8ee7c29a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 360)
+			(at 2.5 0 0)
 			(layer "F.Fab")
 			(uuid "fcd0fc73-998f-4140-a12d-d1192257889a")
 			(effects

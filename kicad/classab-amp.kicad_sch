@@ -2977,6 +2977,12 @@
 		(uuid "94791a59-abd8-4779-97e1-f67a99eb7a79")
 	)
 	(junction
+		(at 176.53 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96a55421-32f7-46c6-b427-44294f2bdb13")
+	)
+	(junction
 		(at 115.57 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3794,6 +3800,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 115.57) (xy 176.53 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ee03366-ec4a-4192-8c6a-8c1359b160c0")
+	)
+	(wire
+		(pts
 			(xy 207.01 46.99) (xy 207.01 48.26)
 		)
 		(stroke
@@ -3811,6 +3827,16 @@
 			(type default)
 		)
 		(uuid "75cdef11-c7cb-47fc-a412-a7de74104b46")
+	)
+	(wire
+		(pts
+			(xy 176.53 118.11) (xy 182.88 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76f4c3a2-8578-498c-af98-20a2fca4e8a5")
 	)
 	(wire
 		(pts
@@ -3884,7 +3910,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 118.11) (xy 182.88 118.11)
+			(xy 168.91 118.11) (xy 176.53 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4091,6 +4117,16 @@
 			(type default)
 		)
 		(uuid "97cbd970-cc0f-4833-b8d2-1d83c71e6d6f")
+	)
+	(wire
+		(pts
+			(xy 176.53 107.95) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb8740e-f1b2-4b3f-ad89-52ae8517d823")
 	)
 	(wire
 		(pts
@@ -4461,6 +4497,16 @@
 			(type default)
 		)
 		(uuid "dcda9dc8-04e9-4362-881e-3df356b6d133")
+	)
+	(wire
+		(pts
+			(xy 168.91 90.17) (xy 176.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec31851-1dd3-4e0b-8901-9632940ef90d")
 	)
 	(wire
 		(pts
@@ -6931,6 +6977,76 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 176.53 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a379346-090b-468a-8930-48196e58acd5")
+		(property "Reference" "C6"
+			(at 180.34 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 180.34 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.4952 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 176.53 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2b7010-016e-41d2-930d-c954dedb7087")
+		)
+		(pin "2"
+			(uuid "21112bda-fb4a-400c-8065-29882c01f7f4")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "C6")
 					(unit 1)
 				)
 			)
