@@ -46,6 +46,10 @@ a snubber and a Zobel network to further improve stability.
 To protect against short circuits, overcurrent and catastrophic DC output, two transistors are fitted that measure the curremt across
 the degeneration resistors and shut off the base current to the final Darlington stage when the current reaches approximately 4A. 
 
+### Output coil
+The output coil is realized simply by winding 10-12 turns of 16 AWG wire around R21. See the photo below!
+![Coil](images/zobel.png)
+
 ### Power improvements
 Altough this hasn't been tested or thorouhgly analyzed, it should be possible to increase the rail voltages to +-40V, which yields about
 160W according to simultions. For this to work, the gain needs to be made higher by increasing the value of the feedback resistor. The
