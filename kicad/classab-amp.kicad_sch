@@ -4874,6 +4874,16 @@
 		)
 		(uuid "ff3f9f31-d65a-415e-ab76-f77152a937a4")
 	)
+	(text "Wrap 16-18 AWG wire 10-12 turns around R21"
+		(exclude_from_sim no)
+		(at 257.048 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09b5d96c-f21f-4743-b27f-3628e0117303")
+	)
 	(text "3W"
 		(exclude_from_sim no)
 		(at 249.428 111.252 0)
