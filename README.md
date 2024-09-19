@@ -48,7 +48,7 @@ the degeneration resistors and shut off the base current to the final Darlington
 
 ### Output coil
 The output coil is realized simply by winding 10-12 turns of 16 AWG wire around R21. See the photo below!
-![Coil](images/zobel.png)
+![Coil](images/coil.png)
 
 ### Power improvements
 Altough this hasn't been tested or thorouhgly analyzed, it should be possible to increase the rail voltages to +-40V, which yields about
