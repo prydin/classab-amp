@@ -1321,7 +1321,7 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4001"
+		(symbol "Diode:1N4004"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1335,7 +1335,7 @@
 					)
 				)
 			)
-			(property "Value" "1N4001"
+			(property "Value" "1N4004"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -1344,7 +1344,7 @@
 				)
 			)
 			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 0 0)
+				(at 0 -4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1361,7 +1361,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
+			(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1406,7 +1406,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "1N4001_0_1"
+			(symbol "1N4004_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -1444,7 +1444,7 @@
 					)
 				)
 			)
-			(symbol "1N4001_1_1"
+			(symbol "1N4004_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -1607,168 +1607,6 @@
 				)
 			)
 			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Diode:1N5400"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N5400"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?201AD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N5400_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N5400_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -3488,7 +3326,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 29.21) (xy 232.41 36.83)
+			(xy 232.41 29.21) (xy 232.41 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3928,7 +3766,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 120.65) (xy 87.63 120.65)
+			(xy 77.47 120.65) (xy 87.63 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3968,7 +3806,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 80.01 120.65)
+			(xy 77.47 125.73) (xy 77.47 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4828,7 +4666,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 135.89) (xy 80.01 133.35)
+			(xy 77.47 133.35) (xy 77.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4998,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 44.45) (xy 232.41 63.5)
+			(xy 232.41 41.91) (xy 232.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5038,7 +4876,7 @@
 	)
 	(text "3W"
 		(exclude_from_sim no)
-		(at 244.094 110.998 0)
+		(at 249.428 111.252 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5174,6 +5012,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4004")
+		(at 189.23 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "003bba1a-0f99-4b68-b91b-7bbd36558e17")
+		(property "Reference" "D3"
+			(at 191.77 118.1099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 191.77 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 193.675 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "10c1fe27-2ada-41fb-ab13-768a9d0f278c")
+		)
+		(pin "1"
+			(uuid "38f10943-83a1-42cc-843b-8ef2c4202b2f")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 220.98 81.28 0)
 		(unit 1)
@@ -5238,6 +5164,94 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4004")
+		(at 233.68 152.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205ff772-c996-4b85-a127-a72def9128a6")
+		(property "Reference" "D10"
+			(at 236.22 151.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 236.22 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 238.125 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 233.68 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15689f90-0433-4b34-afb9-dd58f79cb16e")
+		)
+		(pin "1"
+			(uuid "1c96981c-c7c0-49d0-966f-de1e2bc41c92")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6065,6 +6079,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4004")
+		(at 232.41 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41b75b99-69f8-4feb-8cca-ecf3ab8e226f")
+		(property "Reference" "D8"
+			(at 234.95 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 234.95 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 227.965 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82f76d5c-a6df-4f54-97e0-d74a30bab52b")
+		)
+		(pin "1"
+			(uuid "90598379-2763-4725-8609-d7af0999f977")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 264.16 93.98 0)
 		(unit 1)
@@ -6125,94 +6227,6 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4001")
-		(at 189.23 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45e5cf01-74f6-4e82-9568-719e32abb152")
-		(property "Reference" "D6"
-			(at 191.77 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 191.77 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 189.23 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29c8037a-f01b-40ab-993b-5dcd67733e1e")
-		)
-		(pin "2"
-			(uuid "92075dac-9046-408b-9d17-50a766b6964b")
-		)
-		(instances
-			(project "classab-amp"
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -6478,7 +6492,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 80.01 129.54 0)
+		(at 77.47 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6487,7 +6501,7 @@
 		(fields_autoplaced yes)
 		(uuid "568f1473-8686-49d7-a0c1-42d762180fb6")
 		(property "Reference" "R6"
-			(at 82.55 128.2699 0)
+			(at 80.01 128.2699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6495,8 +6509,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
-			(at 82.55 130.8099 0)
+		(property "Value" "10k"
+			(at 80.01 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6519,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 78.232 129.54 90)
+			(at 75.692 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6514,7 +6528,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 129.54 0)
+			(at 77.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6523,7 +6537,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.01 129.54 0)
+			(at 77.47 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6895,94 +6909,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 233.68 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65cf25b3-bdb1-4a2c-bc1c-ab24e577ad93")
-		(property "Reference" "D10"
-			(at 236.22 132.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N5400"
-			(at 236.22 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 238.125 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 233.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 233.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 233.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dad49d73-f4e1-43c7-b171-f02ea486bc4e")
-		)
-		(pin "2"
-			(uuid "d7da632b-36f6-4ae7-a472-323dbe4a2952")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 31.75 90.17 180)
 		(unit 1)
@@ -7283,94 +7209,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 232.41 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75a59c6e-b957-4ebd-ae68-062cf39d2309")
-		(property "Reference" "D8"
-			(at 234.95 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5400"
-			(at 234.95 41.9099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 227.965 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 232.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 232.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 232.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9737902b-8929-4bd0-baab-ab6cdc199819")
-		)
-		(pin "2"
-			(uuid "a8693d0c-c982-46e2-88e6-2165da3f7dca")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 95.25 39.37 0)
 		(unit 1)
@@ -7534,7 +7372,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 177.4952 115.57 0)
 			(effects
 				(font
@@ -7967,94 +7805,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4001")
-		(at 189.23 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a77e368-2d10-4a7f-9aca-9b0f71257c5c")
-		(property "Reference" "D3"
-			(at 191.77 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4001"
-			(at 191.77 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 1A General Purpose Rectifier Diode, DO-41"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 189.23 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd9062fa-46bb-439d-9457-6996be58d6b6")
-		)
-		(pin "2"
-			(uuid "9a50d33c-c942-4c23-ab8c-cbd3a6b4a3b2")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 207.01 25.4 0)
 		(unit 1)
@@ -8119,6 +7869,94 @@
 			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4004")
+		(at 189.23 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fcf341d-7b7e-470a-8ce1-becb4b957ee5")
+		(property "Reference" "D6"
+			(at 191.77 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 191.77 53.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 193.675 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 189.23 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48f16411-dea3-4aec-a357-20d1c61d889f")
+		)
+		(pin "1"
+			(uuid "5c49b18d-3cbe-4939-a2b3-6c45d82b523b")
+		)
+		(instances
+			(project "classab-amp"
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -8380,6 +8218,94 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4004")
+		(at 232.41 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96986445-b1f1-4e45-b8aa-cb0655ba19df")
+		(property "Reference" "D7"
+			(at 234.95 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4004"
+			(at 234.95 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 236.855 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 232.41 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe30eb2e-f07a-419f-9c9f-4fb50c63102e")
+		)
+		(pin "1"
+			(uuid "f8ba103f-e50a-4ab9-b74f-f5a0726b96e5")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8953,7 +8879,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1k"
 			(at 107.95 135.8899 0)
 			(effects
 				(font
@@ -9076,7 +9002,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 80.01 135.89 0)
+		(at 77.47 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9085,7 +9011,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4192c77-7cdb-43c5-be97-7a2a84246128")
 		(property "Reference" "#PWR02"
-			(at 80.01 142.24 0)
+			(at 77.47 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9094,7 +9020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 80.01 140.97 0)
+			(at 77.47 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9102,7 +9028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 135.89 0)
+			(at 77.47 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9111,7 +9037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 135.89 0)
+			(at 77.47 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9120,7 +9046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 80.01 135.89 0)
+			(at 77.47 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,44 +9527,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 233.68 152.4 90)
+		(lib_id "Diode:1N4004")
+		(at 233.68 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c415a3f8-002c-46c0-84aa-4381f5cebe07")
+		(uuid "c321e0ed-f15c-4054-852f-be8bdb2aeadd")
 		(property "Reference" "D9"
-			(at 236.22 151.1299 90)
+			(at 236.22 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "1N5400"
-			(at 236.22 153.6699 90)
+		(property "Value" "1N4004"
+			(at 236.22 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 238.125 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 233.68 152.4 0)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 229.235 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9646,8 +9563,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 233.68 152.4 0)
+		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9656,7 +9582,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 233.68 152.4 0)
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,7 +9591,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 233.68 152.4 0)
+			(at 233.68 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9674,13 +9600,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "70c7ff60-47e0-4559-b25d-98e5048193d3")
+			(uuid "b3fae4ba-5bc0-44ee-8b1c-4c3e93d44e23")
 		)
 		(pin "1"
-			(uuid "44de44ea-ce55-4ad3-bc22-c71dfea571dc")
+			(uuid "5535f2c2-4580-47b9-a135-5c39e94f5773")
 		)
 		(instances
-			(project ""
+			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "D9")
 					(unit 1)
@@ -10238,94 +10164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N5400")
-		(at 232.41 25.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e85250fc-8619-4949-a7ef-42fb59e0f895")
-		(property "Reference" "D7"
-			(at 234.95 24.1299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N5400"
-			(at 234.95 26.6699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
-			(at 227.965 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88516/1n5400.pdf"
-			(at 232.41 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50V 3A General Purpose Rectifier Diode, DO-201AD"
-			(at 232.41 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 232.41 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e22b9b01-37e9-4947-833b-2df49404bdc4")
-		)
-		(pin "1"
-			(uuid "7516113a-13e8-45bc-8a18-c88974fde5b8")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 132.08 93.98 0)
 		(unit 1)
@@ -10353,7 +10191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 133.0452 97.79 0)
 			(effects
 				(font
@@ -11106,7 +10944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 144.78 130.8099 0)
 			(effects
 				(font
