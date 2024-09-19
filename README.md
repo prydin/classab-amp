@@ -16,23 +16,23 @@ know how Self was when I started building it. The design is just based on variou
 make it my own.
 
 ## Overall design
-The design is a simple single differential stage amplifier with a single transistor VAS driving two Darlington pair for the final current 
+The design is a simple single differential stage amplifier with a single transistor VAS driving two Darlington pairs for the final current 
 gain stage. 
 
 ### Input stage
-After the customary DC-blocking capacitor and RF filter, the signal is fed into a long tailed pair differential amplifier that's enhanced with 
-an active current sink and current mirror loads. The active sink and load helped improve both distortion and frequency response. The bias 
-current of the LTP is set to approximately 240uA. The LTP and its current mirrors are mounted on a separate copper island for maximum heat
+After the customary DC-blocking capacitor and RF filter, the signal is fed into a long tailed pair differential amplifier that's enhanced to 
+an active current sink and current mirror loads. The active sink and load helps improve both distortion and frequency response. The bias 
+current of the LTP is set to approximately 600uA. The LTP and its current mirrors are mounted on a separate copper island for maximum heat
 condudctivity between the transistors. The feedback is fed through a 22k/1k voltage divider, yielding about 23x amplification. This is a 
 conservative estimate and may have to be adjusted when testing the physical build.
 
 ### Voltage amplification/drive stage
 I went for a very simple single-sided design here. I've gotten many suggestions that I should try a dual differential design instead, but 
-the current design seems good enough, so I stuck with it. The VAS has a 50p compensation capacitor which appears to be enough to provide 
+the current design seems good enough, so I stuck with it. The VAS has a 47p compensation capacitor which appears to be enough to provide 
 ample phase margin.
 
 ### Output stage biasing
-The output stage is biased using a servo transistor driven by a constant current sink. The BD139 won the servo as chosen just because it's
+The output stage is biased using a servo transistor driven by a constant current sink. The BD139 for the servo as chosen just because it's
 easy to mount on a heat sink together with the power components for good heat conductivity between components. A much less powerful 
 transistor works too, but would have been harder to attach to the heat sink.
 
