@@ -3091,7 +3091,7 @@
 		(uuid "f3de4fdb-d58b-4610-8217-55766b1bf296")
 	)
 	(junction
-		(at 64.77 115.57)
+		(at 53.34 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f53200e4-bf28-4efd-83af-c8b10ee1f396")
@@ -3203,6 +3203,16 @@
 			(type default)
 		)
 		(uuid "08b400e2-9958-456d-bfff-7115b1ff0c8d")
+	)
+	(wire
+		(pts
+			(xy 64.77 102.87) (xy 64.77 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098ffa7f-aaa0-4e14-85a1-e8c7582884b7")
 	)
 	(wire
 		(pts
@@ -3326,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 29.21) (xy 232.41 34.29)
+			(xy 232.41 29.21) (xy 232.41 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3436,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 115.57) (xy 64.77 116.84)
+			(xy 53.34 118.11) (xy 53.34 119.38)
 		)
 		(stroke
 			(width 0)
@@ -3596,7 +3606,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 134.62) (xy 189.23 134.62)
+			(xy 180.34 134.62) (xy 189.23 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3916,7 +3926,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 118.11) (xy 182.88 118.11)
+			(xy 176.53 118.11) (xy 180.34 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4096,7 +4106,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 118.11) (xy 182.88 134.62)
+			(xy 180.34 118.11) (xy 180.34 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4306,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 114.3) (xy 64.77 115.57)
+			(xy 53.34 114.3) (xy 53.34 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4343,6 +4353,16 @@
 			(type default)
 		)
 		(uuid "ac8aac64-9345-4385-bd9f-7e8ed3f570ad")
+	)
+	(wire
+		(pts
+			(xy 53.34 118.11) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fd2556-6de2-4977-99bc-f21896f889f6")
 	)
 	(wire
 		(pts
@@ -4403,6 +4423,16 @@
 			(type default)
 		)
 		(uuid "bc3aae0f-be0d-4917-9e99-d705627dbf83")
+	)
+	(wire
+		(pts
+			(xy 53.34 102.87) (xy 64.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb2cc4a-0198-4c84-96ff-a203b56b1fdc")
 	)
 	(wire
 		(pts
@@ -4596,6 +4626,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 114.3) (xy 64.77 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8ee717-8a0b-425c-ba15-eabfef153f4a")
+	)
+	(wire
+		(pts
 			(xy 46.99 95.25) (xy 46.99 96.52)
 		)
 		(stroke
@@ -4696,7 +4736,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 64.77 102.87)
+			(xy 53.34 106.68) (xy 53.34 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +4876,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 41.91) (xy 232.41 63.5)
+			(xy 232.41 43.18) (xy 232.41 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4896,7 +4936,7 @@
 	)
 	(text "3W"
 		(exclude_from_sim no)
-		(at 68.072 115.57 0)
+		(at 56.896 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6090,7 +6130,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4004")
-		(at 232.41 38.1 270)
+		(at 232.41 39.37 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6099,7 +6139,7 @@
 		(fields_autoplaced yes)
 		(uuid "41b75b99-69f8-4feb-8cca-ecf3ab8e226f")
 		(property "Reference" "D8"
-			(at 234.95 36.8299 90)
+			(at 234.95 38.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6108,7 +6148,7 @@
 			)
 		)
 		(property "Value" "1N4004"
-			(at 234.95 39.3699 90)
+			(at 234.95 40.6399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6157,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 227.965 38.1 0)
+			(at 227.965 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6166,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 232.41 38.1 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6175,7 @@
 			)
 		)
 		(property "Description" "400V 1A General Purpose Rectifier Diode, DO-41"
-			(at 232.41 38.1 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6184,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 232.41 38.1 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6153,7 +6193,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 232.41 38.1 0)
+			(at 232.41 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9508,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 110.49 180)
+		(at 53.34 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9477,7 +9517,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1a46f34-ddc5-4e67-9607-57dd9a6fd26f")
 		(property "Reference" "R15"
-			(at 67.31 109.2199 0)
+			(at 55.88 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9485,8 +9525,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10"
-			(at 67.31 111.7599 0)
+		(property "Value" "220"
+			(at 55.88 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9535,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P15.24mm_Horizontal"
-			(at 66.548 110.49 90)
+			(at 55.118 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 110.49 0)
+			(at 53.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +9553,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 64.77 110.49 0)
+			(at 53.34 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9696,7 +9736,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 64.77 115.57 90)
+		(at 53.34 118.11 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9705,7 +9745,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9be68b7-b4bb-4b3c-85ed-c581789eeda1")
 		(property "Reference" "#FLG01"
-			(at 62.865 115.57 0)
+			(at 51.435 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +9754,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 60.96 115.5699 90)
+			(at 49.53 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9723,7 +9763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 115.57 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9732,7 +9772,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 115.57 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9741,7 +9781,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 64.77 115.57 0)
+			(at 53.34 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10554,7 +10594,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 64.77 116.84 0)
+		(at 53.34 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10563,7 +10603,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5c5d312-6d75-4086-960d-252071a74dc8")
 		(property "Reference" "#PWR011"
-			(at 64.77 121.92 0)
+			(at 53.34 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10572,7 +10612,7 @@
 			)
 		)
 		(property "Value" "CHASSIS"
-			(at 64.643 120.65 0)
+			(at 53.213 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10580,7 +10620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 118.11 0)
+			(at 53.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10589,7 +10629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 118.11 0)
+			(at 53.34 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10598,7 +10638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 64.77 116.84 0)
+			(at 53.34 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11000,6 +11040,76 @@
 			(project "classab-amp"
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 64.77 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd1ebb96-7c48-45d0-a8c2-e47035095954")
+		(property "Reference" "C7"
+			(at 68.58 109.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 68.58 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+			(at 65.7352 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8e2b8adb-c62a-4a5b-b283-c6f9709c3c5b")
+		)
+		(pin "1"
+			(uuid "78681eb4-1801-46a2-881a-1cba07016496")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "C7")
 					(unit 1)
 				)
 			)
