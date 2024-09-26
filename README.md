@@ -16,6 +16,10 @@ Some people have said it looks a lot like Doug Self's "Blameless Amplifier". I t
 know how Self was when I started building it. The design is just based on various ideas from other amplifiers that I put together and trid to
 make it my own.
 
+## Repository structure
+* `kicad` - Schematic and PCB layout in KiCAD format
+*  `spice` - LTSpice simulations
+
 ## Overall design
 The design is a simple single differential stage amplifier with a single transistor VAS driving two Darlington pairs for the final current 
 gain stage. 
@@ -111,7 +115,7 @@ the transistors in the LTP which put DC on the speaker output.
 14. Measure DC voltage on the speaker outputs. The DC voltage 
 15. Measure the voltage between the emitters on the output transistors (Q10 and Q12). Adjust the bias trim until the voltage reaches 8mV. This corresponds to a bias current of 18mA. You may go higher or lower depending on your preferences. Just watch the temperatures!
 16. Bring up the amplifer and test it using a dummy load and signal generator as described above.
-17. 
+17. If all has gone well up until this point, connect your speakers and crank up your final tune. ENJOY!
 
 # Schematic
 ![Schematic](images/schematic.png)
