@@ -13,7 +13,7 @@ I needed better sound than crappy Bluetooth speakers in my office. I settled for
 and the voltages involved are a lot more forgiving than what you'd have with a 300W monster. 
 
 Some people have said it looks a lot like Doug Self's "Blameless Amplifier". I take that as a compliment, but the fact is that I didn't even
-know how Self was when I started building it. The design is just based on various ideas from other amplifiers that I put together and trid to
+know how Self was when I started building it. The design is just based on various ideas from other amplifiers that I put together and tried to
 make it my own.
 
 ## Repository structure
