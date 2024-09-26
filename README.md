@@ -106,7 +106,7 @@ the transistors in the LTP which put DC on the speaker output.
 4. Measure the DC voltage across the speaker terminals. It should be less than 50mA. 
 5. Connect an oscilloscope to the output. There should be no oscillations.
 6. Slowly bring the voltage to +/-24V. The current draw should still be well below 100mA.
-7. Connect a 8W resistive dummy load to the output. The current draw should not increase significantly.
+7. Connect a 8Ω resistive dummy load to the output. The current draw should not increase significantly.
 8. Connect a signal generator to the input and send in a 10mV p/p 1kHz sine singal. You should see approximately 200mV p/p on the speaker output.
 9. Increase the current limit to 500mA and try the same with a 100mV p/p and 200mV p/p signal.
 10. Increase the current limit to 1A and try a 300mV p/p input.
@@ -115,7 +115,7 @@ the transistors in the LTP which put DC on the speaker output.
 14. Measure DC voltage on the speaker outputs. The DC voltage 
 15. Measure the voltage between the emitters on the output transistors (Q10 and Q12). Adjust the bias trim until the voltage reaches 8mV. This corresponds to a bias current of 18mA. You may go higher or lower depending on your preferences. Just watch the temperatures!
 16. Bring up the amplifer and test it using a dummy load and signal generator as described above.
-17. If all has gone well up until this point, connect your speakers and crank up your final tune. ENJOY!
+17. If all has gone well up until this point, connect your speakers and crank up your favorite tune. ENJOY!
 
 # Schematic
 ![Schematic](images/schematic.png)
