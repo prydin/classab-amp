@@ -91,6 +91,8 @@ Mechnical design is not my forte, so you're probably best off to come up with yo
 and found that it easily fit all the components. In my 50W design, I'm simply using the case as heat sink. This works well for any power
 you would put out in a normal home and the case get barely luke warm. For higher power levels or listening at a sustained high volume, 
 a dedicated, finned heat sink is probably a better option.
+![Chassis](images/chassis.jpg)
+
 
 ## Thermal coupling
 It is *extremely* important that Q7, Q8, Q9, Q10 and Q12 are thermally coupled, i.e. mounted on the same heat sink. Failure to do this 
