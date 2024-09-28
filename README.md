@@ -91,6 +91,8 @@ Mechnical design is not my forte, so you're probably best off to come up with yo
 and found that it easily fit all the components. In my 50W design, I'm simply using the case as heat sink. This works well for any power
 you would put out in a normal home and the case get barely luke warm. For higher power levels or listening at a sustained high volume, 
 a dedicated, finned heat sink is probably a better option.
+![Chassis](images/chassis.jpg)
+
 
 ## Thermal coupling
 It is *extremely* important that Q7, Q8, Q9, Q10 and Q12 are thermally coupled, i.e. mounted on the same heat sink. Failure to do this 
@@ -153,7 +155,7 @@ Total Harmonic Distortion:   0.018652%
 ![FFT](images/fft.png)
 
 ### AC Analysis
-The amplifier has a 3dB bandwidth of about 72kHz, which is by no means in the audiophile range, but it keeps any poles far away from the audible 
+The amplifier has a 3dB bandwidth of about 87kHz, which is by no means in the audiophile range, but it keeps any poles far away from the audible 
 range to make both the amplitude and phase response vritually flat where it matters. I am of the opinion that nothing >20kHz has any impact on
 the listening experience.
 
