@@ -105,7 +105,7 @@ the transistors in the LTP which put DC on the speaker output.
 1. Disconnect the speakers.
 2. Turn the bias trimmer to its lowest setting (highest resistance)
 3. Connect a current limited power supply with -12V, 0V and +12V to the power inputs. Limit the current to 200mA. The amplifier should draw less than 100mA.
-4. Measure the DC voltage across the speaker terminals. It should be less than 50mA. 
+4. Measure the DC voltage across the speaker terminals. It should be less than 50mV. 
 5. Connect an oscilloscope to the output. There should be no oscillations.
 6. Slowly bring the voltage to +/-24V. The current draw should still be well below 100mA.
 7. Connect a 8Ω resistive dummy load to the output. The current draw should not increase significantly.
@@ -155,7 +155,7 @@ Total Harmonic Distortion:   0.018652%
 ![FFT](images/fft.png)
 
 ### AC Analysis
-The amplifier has a 3dB bandwidth of about 87kHz, which is by no means in the audiophile range, but it keeps any poles far away from the audible 
+The amplifier has a 3dB bandwidth of about 121kHz, which is respectable, while not in the hardcore audiophile range, but it keeps any poles far away from the audible 
 range to make both the amplitude and phase response vritually flat where it matters. I am of the opinion that nothing >20kHz has any impact on
 the listening experience.
 
