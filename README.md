@@ -155,7 +155,7 @@ Total Harmonic Distortion:   0.018652%
 ![FFT](images/fft.png)
 
 ### AC Analysis
-The amplifier has a 3dB bandwidth of about 87kHz, which is by no means in the audiophile range, but it keeps any poles far away from the audible 
+The amplifier has a 3dB bandwidth of about 121kHz, which is respectable, while not in the hardcore audiophile range, but it keeps any poles far away from the audible 
 range to make both the amplitude and phase response vritually flat where it matters. I am of the opinion that nothing >20kHz has any impact on
 the listening experience.
 
