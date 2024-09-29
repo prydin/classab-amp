@@ -161,3 +161,13 @@ the listening experience.
 
 ![Bode plot](images/bode.png)
 
+### Open Loop Gain and Phase Margin
+The DC open loop gain is about 50dB, giving the global loop about a 27dB feedback level. I understand there are many different theories around this, but the concensus seems
+to be that 20-40dB is an appropriate level. 
+
+The phase margin is about 53 degrees according to simulations, which should be a respectable number and quite stable. It's probably good enough
+that I could lower or completely eliminate the VAS Miller capacitance. But it doesn't affect bandwith much, so for now, I'll keep it around. If you build the amp
+and end up experimenting with the compensation, please let me know what the results were!
+
+![OLG](images/phmargin.png)
+
