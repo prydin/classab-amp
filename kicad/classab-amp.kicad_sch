@@ -2995,12 +2995,6 @@
 		(uuid "94791a59-abd8-4779-97e1-f67a99eb7a79")
 	)
 	(junction
-		(at 176.53 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "96a55421-32f7-46c6-b427-44294f2bdb13")
-	)
-	(junction
 		(at 115.57 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3047,6 +3041,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5b7cc00-4849-44cb-9caa-a0370f466c28")
+	)
+	(junction
+		(at 179.07 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca0998c6-b155-4ef6-b13a-4a9a60c5176b")
 	)
 	(junction
 		(at 64.77 102.87)
@@ -3362,6 +3362,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 99.06) (xy 115.57 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc9ace0-e621-4b70-8c6b-e775392ba2bb")
+	)
+	(wire
+		(pts
 			(xy 255.27 82.55) (xy 259.08 82.55)
 		)
 		(stroke
@@ -3562,16 +3572,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 68.58) (xy 154.94 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fb37548-c8e5-42b4-ae8f-f45b36b0cf99")
-	)
-	(wire
-		(pts
 			(xy 154.94 100.33) (xy 154.94 102.87)
 		)
 		(stroke
@@ -3622,7 +3622,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 134.62) (xy 189.23 134.62)
+			(xy 179.07 134.62) (xy 189.23 134.62)
 		)
 		(stroke
 			(width 0)
@@ -3902,7 +3902,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 115.57) (xy 176.53 118.11)
+			(xy 179.07 106.68) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3939,16 +3939,6 @@
 			(type default)
 		)
 		(uuid "75cdef11-c7cb-47fc-a412-a7de74104b46")
-	)
-	(wire
-		(pts
-			(xy 176.53 118.11) (xy 180.34 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76f4c3a2-8578-498c-af98-20a2fca4e8a5")
 	)
 	(wire
 		(pts
@@ -4032,7 +4022,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 118.11) (xy 176.53 118.11)
+			(xy 168.91 118.11) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -4132,7 +4122,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 118.11) (xy 180.34 134.62)
+			(xy 179.07 118.11) (xy 179.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4252,6 +4242,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96a12cd7-57fc-4e59-a277-d5633aca355a")
+	)
+	(wire
+		(pts
 			(xy 220.98 111.76) (xy 220.98 120.65)
 		)
 		(stroke
@@ -4282,7 +4282,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 107.95) (xy 176.53 90.17)
+			(xy 179.07 99.06) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4322,7 +4322,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 99.06) (xy 115.57 99.06)
+			(xy 105.41 99.06) (xy 106.68 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4632,7 +4632,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 68.58) (xy 127 68.58)
+			(xy 95.25 68.58) (xy 154.94 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4702,7 +4702,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 90.17) (xy 176.53 90.17)
+			(xy 168.91 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -4932,7 +4932,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 99.06) (xy 105.41 99.06)
+			(xy 95.25 99.06) (xy 96.52 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4959,6 +4959,16 @@
 			)
 		)
 		(uuid "09b5d96c-f21f-4743-b27f-3628e0117303")
+	)
+	(text "R22 and R23 should be\nclosely matched."
+		(exclude_from_sim no)
+		(at 117.348 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "09dc5d66-7cd6-4fd6-966c-fdb717d1375b")
 	)
 	(text "3W"
 		(exclude_from_sim no)
@@ -5019,6 +5029,16 @@
 			)
 		)
 		(uuid "b2f1c9b2-a8d3-40c5-8459-1322cfc970a9")
+	)
+	(text "C8 optional. Omit if amp \nis stable without it."
+		(exclude_from_sim no)
+		(at 139.954 122.936 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e56c0c3d-b42c-4e84-bd0b-353f41817383")
 	)
 	(label "LTP COM"
 		(at 115.57 76.2 0)
@@ -5415,6 +5435,74 @@
 			(project ""
 				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
 					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 99.06 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23d45788-265b-4199-bbb7-7864cd3a7054")
+		(property "Reference" "R23"
+			(at 110.49 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 110.49 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 110.49 100.838 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e9e9f0a-fc94-4728-819c-b751c65dc3a2")
+		)
+		(pin "2"
+			(uuid "080dd1fa-c84d-41c3-8ec3-358bc39fc8ad")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -7133,74 +7221,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 130.81 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cf2f2a0-012c-42c7-bcc6-212fbf4ff9fa")
-		(property "Reference" "R8"
-			(at 130.81 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 130.81 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 130.81 66.802 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 130.81 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "dad3b7a7-8cdb-41db-bd00-494c223d0a18")
-		)
-		(pin "1"
-			(uuid "d7217333-baec-4ce9-a183-8ff328b4d802")
-		)
-		(instances
-			(project ""
-				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:BD139")
 		(at 204.47 38.1 0)
 		(unit 1)
@@ -7502,16 +7522,15 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 176.53 111.76 0)
+		(at 179.07 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7a379346-090b-468a-8930-48196e58acd5")
 		(property "Reference" "C6"
-			(at 180.34 110.4899 0)
+			(at 181.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7520,7 +7539,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 180.34 113.0299 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7529,7 +7548,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
-			(at 177.4952 115.57 0)
+			(at 180.0352 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7538,7 +7557,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 111.76 0)
+			(at 179.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7547,7 +7566,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 176.53 111.76 0)
+			(at 179.07 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7861,7 +7880,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MJL3218C"
+		(property "Value" "MJL3281C"
 			(at 223.52 48.2599 0)
 			(effects
 				(font
@@ -9907,6 +9926,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 100.33 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cddb8b6a-efba-4493-b5b5-92e88f5c5244")
+		(property "Reference" "R22"
+			(at 100.33 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 100.33 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+			(at 100.33 97.282 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54b497dd-a2eb-457b-a7d9-609b73bb0dc5")
+		)
+		(pin "2"
+			(uuid "3e951751-3b3d-4cec-84bd-89e9361bef19")
+		)
+		(instances
+			(project ""
+				(path "/856f1e14-388c-4d87-abe9-3c0c6310ec29"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_BJT:BC547")
 		(at 191.77 73.66 0)
 		(mirror y)
@@ -10771,10 +10858,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f7115e6f-33e3-4f53-a2b0-89787d93485a")
 		(property "Reference" "Q7"
-			(at 171.45 101.5999 0)
+			(at 171.196 104.902 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10783,7 +10869,7 @@
 			)
 		)
 		(property "Value" "BD139"
-			(at 171.45 104.1399 0)
+			(at 170.18 107.696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
